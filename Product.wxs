@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:util="http://schemas.microsoft.com/wix/UtilExtension">
+  <Product Id="D56CC5A7-30CF-494E-B7A3-1F9C94570872" Name="Vos Video Dashboard" Language="1033" Version="2.0.0.0" Manufacturer="Vos Video" UpgradeCode="f7ca05da-8e57-4be3-9feb-967bf8daa956">
+    <Package InstallerVersion="405" Compressed="yes" InstallScope="perMachine" />
+    <Media Id="1" Cabinet="cab1.cab" EmbedCab="yes" />
+
+
+    <MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+
+    <Condition Message="You need to be an administrator to install this product.">
+      Privileged
+    </Condition>
+
+    <Condition Message='The operating system must be at least Windows 7'>
+      VersionNT >= 601
+    </Condition>
+
+    <Feature Id="ProductFeature" Title="Vos Video Dashboard Setup" Level="1">
+      <ComponentGroupRef Id="ProductComponents" />
+      <ComponentRef Id="ApplicationShortcutDesktop"/>
+    </Feature>
+
+    <Feature Id="VCRedist" Title="Visual C++ Runtime" AllowAdvertise="no" Display="hidden" Level="1">
+      <MergeRef Id="VCRedist"/>
+    </Feature>
+
+    <Feature Id="GStreamer" Title="GStreamer" AllowAdvertise="no" Display="hidden" Level="1">
+      <MergeRef Id="GStreamerBase"/>
+      <MergeRef Id="GStreamerCore"/>
+      <MergeRef Id="GStreamerSystem"/>
+      <MergeRef Id="GStreamerEncoding"/>
+      <MergeRef Id="GStreamerCapture"/>
+      <MergeRef Id="GStreamerCodecs"/>
+      <MergeRef Id="GStreamerCodecsGpl"/>
+      <MergeRef Id="GStreamerCodecsRestricted"/>
+      <MergeRef Id="GStreamerPlayback"/>
+      <MergeRef Id="GStreamerNetworking"/>
+      <MergeRef Id="GStreamerNetworkingRestricted"/>
+    </Feature>
+
+    <!--<CustomAction Id="InstallRtbcService" Directory="INSTALLFOLDER" ExeCommand='"[INSTALLFOLDER]rtbcserver.exe" -install' Execute="immediate" Return="ignore"/>
+    <CustomAction Id="UninstallRtbcService" Directory="INSTALLFOLDER" ExeCommand='"[INSTALLFOLDER]rtbcserver.exe" -uninstall' Execute="immediate" Return="ignore"/>
+      
+    <InstallExecuteSequence>
+      <Custom Action="InstallRtbcService" Before="InstallFinalize">NOT Installed</Custom>
+      <Custom Action="UninstallRtbcService" Before="InstallFinalize">Installed</Custom>
+    </InstallExecuteSequence>-->
+
+  </Product>
+
+  <Fragment>
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFilesFolder">
+        <Directory Id="INSTALLFOLDER" Name="Vos Video Server">
+          <Merge Id="VCRedist" SourceFile="$(env.ProgramFiles)\Common Files\Merge Modules\Microsoft_VC120_CRT_x86.msm" DiskId="1" Language="0"/>
+          <Merge Id="GStreamerBase" SourceFile="$(env.THIRDPARTY_ROOT)\gstreamer\base-system-2013.6-x86.msm" DiskId="1" Language="1033"/>
+          <Merge Id="GStreamerCore" SourceFile="$(env.THIRDPARTY_ROOT)\gstreamer\gstreamer-core-2013.6-x86.msm" DiskId="1" Language="1033"/>
+          <Merge Id="GStreamerSystem" SourceFile="$(env.THIRDPARTY_ROOT)\gstreamer\gstreamer-system-2013.6-x86.msm" DiskId="1" Language="1033"/>
+          <Merge Id="GStreamerEncoding" SourceFile="$(env.THIRDPARTY_ROOT)\gstreamer\gstreamer-encoding-2013.6-x86.msm" DiskId="1" Language="1033"/>
+          <Merge Id="GStreamerCapture" SourceFile="$(env.THIRDPARTY_ROOT)\gstreamer\gstreamer-capture-2013.6-x86.msm" DiskId="1" Language="1033"/>
+          <Merge Id="GStreamerCodecs" SourceFile="$(env.THIRDPARTY_ROOT)\gstreamer\gstreamer-codecs-2013.6-x86.msm" DiskId="1" Language="1033"/>
+          <Merge Id="GStreamerCodecsGpl" SourceFile="$(env.THIRDPARTY_ROOT)\gstreamer\gstreamer-codecs-gpl-2013.6-x86.msm" DiskId="1" Language="1033"/>
+          <Merge Id="GStreamerCodecsRestricted" SourceFile="$(env.THIRDPARTY_ROOT)\gstreamer\gstreamer-codecs-restricted-2013.6-x86.msm" DiskId="1" Language="1033"/>
+          <Merge Id="GStreamerPlayback" SourceFile="$(env.THIRDPARTY_ROOT)\gstreamer\gstreamer-playback-2013.6-x86.msm" DiskId="1" Language="1033"/>
+          <Merge Id="GStreamerNetworking" SourceFile="$(env.THIRDPARTY_ROOT)\gstreamer\gstreamer-networking-2013.6-x86.msm" DiskId="1" Language="1033"/>
+          <Merge Id="GStreamerNetworkingRestricted" SourceFile="$(env.THIRDPARTY_ROOT)\gstreamer\gstreamer-networking-restricted-2013.6-x86.msm" DiskId="1" Language="1033"/>
+        </Directory>
+        <Directory Id="DesktopFolder" Name="Desktop"/>
+      </Directory>
+    </Directory>
+  </Fragment>
+
+  <Fragment>
+    <Component Id="ApplicationShortcutDesktop" Guid="BF83FBF1-7B01-45E7-B09E-610698905AAF" Directory="DesktopFolder">
+      <Shortcut Id="ApplicationStartMenuShortcut" Name="Vos Video Dashboard" Description="Vos Video Dashboard" Target="[#Dashboard.exe]" WorkingDirectory="INSTALLFOLDER"/>
+      <RegistryValue Root="HKCU" Key="Software\Microsoft\Vos Video Dashboard" Name="installed" Type="integer" Value="1" KeyPath="yes"/>
+    </Component>
+    
+    <ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+      <Component Id="SetEnviromentVar" Guid="{A170DD5C-8E7F-4E17-AF82-98CEA51F6174}">
+        <Environment Id="SET_ENV" Action="set" Name="PATH" Part="last" Permanent="no" System="no" Value="[INSTALLFOLDER]bin\" />
+        <RegistryValue Root="HKCU" Key="Software\Microsoft\Vos Video Dashboard" Name="envset" Type="integer" Value="1" KeyPath="yes"/>      
+      </Component>
+
+      <Component Id="Dashboard.exe" Guid="10EB48D5-70DD-4D6C-9182-EAE1D7F26CE6">
+        <File Source="$(env.VOSVIDEO_ROOT)\vosvideo.web\VosVideo.Dashboard\Dashboard\bin\Release\Dashboard.exe" KeyPath="yes" />
+      </Component>
+      <Component Id="Dashboard.exe.config" Guid="0C0B2534-EB07-4813-A8AA-C41D80D6A7B7">
+        <File Source="$(env.VOSVIDEO_ROOT)\vosvideo.web\VosVideo.Dashboard\Dashboard\bin\Release\Dashboard.exe.config" KeyPath="yes" />
+      </Component>
+      <Component Id="ServiceStack.Common.dll" Guid="1891FCC8-9FB3-400C-8295-539C66B71CF7">
+        <File Source="$(env.VOSVIDEO_ROOT)\vosvideo.web\VosVideo.Dashboard\Dashboard\bin\Release\ServiceStack.Common.dll" KeyPath="yes" />
+      </Component>
+      <Component Id="ServiceStack.dll" Guid="5F315B94-3317-43E1-85D9-E04755110B7B">
+        <File Source="$(env.VOSVIDEO_ROOT)\vosvideo.web\VosVideo.Dashboard\Dashboard\bin\Release\ServiceStack.dll" KeyPath="yes" />
+      </Component>
+      <Component Id="ServiceStack.ServiceInterface.dll" Guid="8F87EDF6-3D01-4AB1-B115-60AA5D729983">
+        <File Source="$(env.VOSVIDEO_ROOT)\vosvideo.web\VosVideo.Dashboard\Dashboard\bin\Release\ServiceStack.ServiceInterface.dll" KeyPath="yes" />
+      </Component>
+      <Component Id="ServiceStack.Text.dll" Guid="B6D5E041-C1E0-4924-8BB8-64945BE11C6F">
+        <File Source="$(env.VOSVIDEO_ROOT)\vosvideo.web\VosVideo.Dashboard\Dashboard\bin\Release\ServiceStack.Text.dll" KeyPath="yes" />
+      </Component>
+      <Component Id="VosVideo.Common.Utils.dll" Guid="ED23DB20-ECAE-4867-A439-ED4607E78364">
+        <File Source="$(env.VOSVIDEO_ROOT)\vosvideo.web\VosVideo.Dashboard\Dashboard\bin\Release\VosVideo.Common.Utils.dll" KeyPath="yes" />
+      </Component>
+      <Component Id="VosVideo.DTOs.dll" Guid="F2E8F7CF-F54A-4086-AFD9-E1091391C315">
+        <File Source="$(env.VOSVIDEO_ROOT)\vosvideo.web\VosVideo.Dashboard\Dashboard\bin\Release\VosVideo.DTOs.dll" KeyPath="yes" />
+      </Component>
+      <Component Id="VosVideo.Infrastructure.RestClient.dll" Guid="BA9550CB-186C-4D39-B427-C2B3E83FDC2A">
+        <File Source="$(env.VOSVIDEO_ROOT)\vosvideo.web\VosVideo.Dashboard\Dashboard\bin\Release\VosVideo.Infrastructure.RestClient.dll" KeyPath="yes" />
+      </Component>
+      <Component Id="Hardcodet.Wpf.TaskbarNotification.dll" Guid="03CBB4AA-6213-480D-98A7-F1D67DB50CDB">
+        <File Source="$(env.VOSVIDEO_ROOT)\vosvideo.web\VosVideo.Dashboard\Dashboard\bin\Release\Hardcodet.Wpf.TaskbarNotification.dll" KeyPath="yes" />
+      </Component>
+
+      <Component Id="rtbcserver.exe" Guid="82872AB2-993D-464B-86BA-4379EB15E1F5">
+        <File Id="RtbcServiceEXE" Source="$(env.VOSVIDEO_ROOT)\rtbcserver2\Release\rtbcserver.exe" KeyPath="yes" />
+        <ServiceInstall
+              Id="ServiceInstaller"
+              Type="ownProcess"
+              Name="RtbcService"
+              Arguments="-service"
+              DisplayName="Vos Video RTBC video service"
+              Description="Vos Video Video Processing Service"
+              Start="auto"
+              Account="[SERVICEACCOUNT]"
+              Password="[SERVICEPASSWORD]"
+              ErrorControl="normal">
+          <util:PermissionEx User="Everyone" ServicePauseContinue="yes" ServiceQueryStatus="yes" ServiceStart="yes" ServiceStop="yes" ServiceUserDefinedControl="yes" />
+        </ServiceInstall>
+        <ServiceControl Id="StartService" Stop="both" Remove="uninstall" Name="RtbcService" Wait="yes" />
+      </Component>
+      <Component Id="rtbcserver.config.xml" Guid="1B8EDE20-9F79-44D1-B710-14D288AC1AAF">
+        <File Source="$(env.VOSVIDEO_ROOT)\rtbcserver2\Release\rtbcserver.config.xml" KeyPath="yes" />
+      </Component>
+      <Component Id="deviceworker.exe" Guid="F86BA265-93F8-42EE-B61B-E249B36F5D83">
+        <File Source="$(env.VOSVIDEO_ROOT)\rtbcserver2\Release\deviceworker.exe" KeyPath="yes" />
+      </Component>
+      <Component Id="PocoFoundation.dll" Guid="35C7A07F-1779-4EEB-A3BC-E2C940B82AE8">
+        <File Source="$(env.VOSVIDEO_ROOT)\rtbcserver2\Release\PocoFoundation.dll" KeyPath="yes" />
+      </Component>
+    </ComponentGroup>
+  </Fragment>
+</Wix>

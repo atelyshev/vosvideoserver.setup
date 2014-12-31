@@ -1,0 +1,16 @@
+# use glob syntax.
+syntax: glob
+
+*/Debug/*
+*/Release/*
+*/obj/*
+*.user
+*.suo
+*/Output/*
+*/_ReSharper.VosVideo/*
+packages/*
+*.log
+*.pdb
+*.dll
+bin/*
+*.dbmdl
