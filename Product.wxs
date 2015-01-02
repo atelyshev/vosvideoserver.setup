@@ -78,7 +78,7 @@
     
     <ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
       <Component Id="SetEnviromentVar" Guid="{A170DD5C-8E7F-4E17-AF82-98CEA51F6174}">
-        <Environment Id="SET_ENV" Action="set" Name="PATH" Part="last" Permanent="no" System="no" Value="[INSTALLFOLDER]bin\" />
+        <Environment Id="SET_ENV" Action="set" Name="PATH" Part="last" Permanent="no" System="yes" Value="[INSTALLFOLDER]bin\" />
         <RegistryValue Root="HKCU" Key="Software\Microsoft\Vos Video Dashboard" Name="envset" Type="integer" Value="1" KeyPath="yes"/>      
       </Component>
 
