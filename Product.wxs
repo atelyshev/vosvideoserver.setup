@@ -139,10 +139,10 @@
       <Component Id="PocoFoundation.dll" Guid="35C7A07F-1779-4EEB-A3BC-E2C940B82AE8">
         <File Source="$(env.VOSVIDEO_ROOT)\rtbcserver2\Release\PocoFoundation.dll" KeyPath="yes" />
       </Component>
-      <Component Id="opencv_core2410.dll" Guid="63bf0a2c-ebb9-46a1-a131-40c2cbe3ab6b">
+      <Component Id="opencv_core2410.dll" Guid="F4F3D490-74A7-4A1B-8B5F-380AC5A9EAF2">
         <File Source="$(env.VOSVIDEO_ROOT)\rtbcserver2\Release\opencv_core2410.dll" KeyPath="yes" />
       </Component>
-      <Component Id="opencv_highgui2410.dll" Guid="ca1fa9fc-35a4-4ce3-b874-90cc7db29cf6">
+      <Component Id="opencv_highgui2410.dll" Guid="B7E9E4BE-4B64-4A17-AA60-E69408255EF5">
         <File Source="$(env.VOSVIDEO_ROOT)\rtbcserver2\Release\opencv_highgui2410.dll" KeyPath="yes" />
       </Component>
     </ComponentGroup>
