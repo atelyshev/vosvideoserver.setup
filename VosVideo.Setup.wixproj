@@ -20,9 +20,12 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
     <OutputPath>bin\$(Configuration)\</OutputPath>
     <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+    <DefineConstants>SourceBinDir=$(GSTREAMER_SDK_ROOT_X86)\bin;SourcePluginDir=$(GSTREAMER_SDK_ROOT_X86)\lib\gstreamer-0.10</DefineConstants>
     <SuppressValidation>True</SuppressValidation>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="BinFragment.wxs" />
+    <Compile Include="PluginFragment.wxs" />
     <Compile Include="Product.wxs" />
   </ItemGroup>
   <ItemGroup>
@@ -32,6 +35,14 @@
     </WixExtension>
   </ItemGroup>
   <Import Project="$(WixTargetsPath)" />
+  <PropertyGroup>
+    <PreBuildEvent>del /Q $(ProjectDir)temp\plugins\%2a
+del /Q $(ProjectDir)temp\bin\%2a
+xcopy $(GSTREAMER_SDK_ROOT_X86)\lib\gstreamer-0.10\%2a.dll  $(ProjectDir)temp\plugins
+xcopy $(GSTREAMER_SDK_ROOT_X86)\bin\%2a.dll  $(ProjectDir)temp\bin
+"C:\Program Files (x86)\WiX Toolset v3.9\bin\heat.exe" dir "$(ProjectDir)\temp\plugins" –cg PluginFiles -gg -scom -sreg -sfrag -srd -dr INSTALLPLUGINBINFOLDER -var var.SourcePluginDir -out "$(ProjectDir)\PluginFragment.wxs"
+"C:\Program Files (x86)\WiX Toolset v3.9\bin\heat.exe" dir "$(ProjectDir)\temp\bin" –cg BinFiles -gg -scom -sreg -sfrag -srd -dr INSTALLBINFOLDER -var var.SourceBinDir -out "$(ProjectDir)\BinFragment.wxs"</PreBuildEvent>
+  </PropertyGroup>
   <!--
 	To modify your build process, add your task inside one of the targets below and uncomment it.
 	Other similar extension points exist, see Wix.targets.
