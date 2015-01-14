@@ -36,7 +36,10 @@
   </ItemGroup>
   <Import Project="$(WixTargetsPath)" />
   <PropertyGroup>
-    <PreBuildEvent>del /Q $(ProjectDir)temp\plugins\%2a
+    <PreBuildEvent>mkdir $(ProjectDir)temp
+mkdir $(ProjectDir)temp\plugins
+mkdir $(ProjectDir)temp\bin
+del /Q $(ProjectDir)temp\plugins\%2a
 del /Q $(ProjectDir)temp\bin\%2a
 xcopy $(GSTREAMER_SDK_ROOT_X86)\lib\gstreamer-0.10\%2a.dll  $(ProjectDir)temp\plugins
 xcopy $(GSTREAMER_SDK_ROOT_X86)\bin\%2a.dll  $(ProjectDir)temp\bin
