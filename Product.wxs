@@ -125,6 +125,9 @@
       <Component Id="opencv_highgui2410.dll" Guid="B7E9E4BE-4B64-4A17-AA60-E69408255EF5">
         <File Source="$(env.VOSVIDEO_ROOT)\rtbcserver2\Release\opencv_highgui2410.dll" KeyPath="yes" />
       </Component>
+      <Component Id="cpprest120_2_4.dll" Guid="19051f46-e688-4f0c-a539-1c2a7b3c8b39">
+        <File Source="$(env.VOSVIDEO_ROOT)\rtbcserver2\Release\cpprest120_2_4.dll" KeyPath="yes" />
+      </Component>
     </ComponentGroup>
   </Fragment>
 </Wix>
