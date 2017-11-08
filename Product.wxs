@@ -15,8 +15,8 @@
     </Condition>
 
     <Feature Id="ProductFeature" Title="Vos Video Dashboard Setup" Level="1">
-      <ComponentGroupRef Id="PluginFiles"/>
-      <ComponentGroupRef Id="BinFiles"/>
+<!--      <ComponentGroupRef Id="PluginFiles"/>
+      <ComponentGroupRef Id="BinFiles"/> -->
       <ComponentGroupRef Id="ProductComponents" />
       <ComponentRef Id="ApplicationShortcutDesktop"/>
     </Feature>
@@ -39,9 +39,9 @@
     <Directory Id="TARGETDIR" Name="SourceDir">
       <Directory Id="ProgramFilesFolder">
         <Directory Id="INSTALLFOLDER" Name="Vos Video Server">
-          <Merge Id="VCRedist" SourceFile="$(env.ProgramFiles)\Common Files\Merge Modules\Microsoft_VC120_CRT_x86.msm" DiskId="1" Language="0"/>
+          <Merge Id="VCRedist" SourceFile="$(env.ProgramFiles)\Common Files\Merge Modules\Microsoft_VC140_CRT_x86.msm" DiskId="1" Language="0"/>
           <Directory Id="INSTALLPLUGINLIBFOLDER" Name="lib">
-            <Directory Id="INSTALLPLUGINBINFOLDER" Name="gstreamer-0.10" />
+            <Directory Id="INSTALLPLUGINBINFOLDER" Name="gstreamer-1.0" />
           </Directory>
           <Directory Id="INSTALLBINFOLDER" Name="bin"/>
         </Directory>
@@ -94,13 +94,13 @@
       </Component>
 
       <Component Id="rtbcserver.exe" Guid="82872AB2-993D-464B-86BA-4379EB15E1F5">
-        <File Id="RtbcServiceEXE" Source="$(env.VOSVIDEO_ROOT)\rtbcserver2\Release\rtbcserver.exe" KeyPath="yes" />
+        <File Id="RtbcServiceEXE" Source="$(env.VOSVIDEO_ROOT)\vosvideoserver\Release\rtbcserver.exe" KeyPath="yes" />
         <ServiceInstall
               Id="ServiceInstaller"
               Type="ownProcess"
               Name="RtbcService"
               Arguments="-service"
-              DisplayName="Vos Video RTBC video service"
+              DisplayName="Vos Video media service"
               Description="Vos Video Video Processing Service"
               Start="auto"
               Account="[SERVICEACCOUNT]"
@@ -111,22 +111,22 @@
         <ServiceControl Id="StartService" Stop="both" Remove="uninstall" Name="RtbcService" Wait="yes" />
       </Component>
       <Component Id="rtbcserver.config.xml" Guid="1B8EDE20-9F79-44D1-B710-14D288AC1AAF">
-        <File Source="$(env.VOSVIDEO_ROOT)\rtbcserver2\Release\rtbcserver.config.xml" KeyPath="yes" />
+        <File Source="$(env.VOSVIDEO_ROOT)\vosvideoserver\Release\rtbcserver.config.xml" KeyPath="yes" />
       </Component>
       <Component Id="deviceworker.exe" Guid="F86BA265-93F8-42EE-B61B-E249B36F5D83">
-        <File Source="$(env.VOSVIDEO_ROOT)\rtbcserver2\Release\deviceworker.exe" KeyPath="yes" />
+        <File Source="$(env.VOSVIDEO_ROOT)\vosvideoserver\Release\deviceworker.exe" KeyPath="yes" />
       </Component>
       <Component Id="PocoFoundation.dll" Guid="35C7A07F-1779-4EEB-A3BC-E2C940B82AE8">
-        <File Source="$(env.VOSVIDEO_ROOT)\rtbcserver2\Release\PocoFoundation.dll" KeyPath="yes" />
+        <File Source="$(env.VOSVIDEO_ROOT)\vosvideoserver\Release\PocoFoundation.dll" KeyPath="yes" />
       </Component>
       <Component Id="opencv_core2410.dll" Guid="F4F3D490-74A7-4A1B-8B5F-380AC5A9EAF2">
-        <File Source="$(env.VOSVIDEO_ROOT)\rtbcserver2\Release\opencv_core2410.dll" KeyPath="yes" />
+        <File Source="$(env.VOSVIDEO_ROOT)\vosvideoserver\Release\opencv_core310.dll" KeyPath="yes" />
       </Component>
       <Component Id="opencv_highgui2410.dll" Guid="B7E9E4BE-4B64-4A17-AA60-E69408255EF5">
-        <File Source="$(env.VOSVIDEO_ROOT)\rtbcserver2\Release\opencv_highgui2410.dll" KeyPath="yes" />
+        <File Source="$(env.VOSVIDEO_ROOT)\vosvideoserver\Release\opencv_highgui310.dll" KeyPath="yes" />
       </Component>
       <Component Id="cpprest120_2_4.dll" Guid="19051f46-e688-4f0c-a539-1c2a7b3c8b39">
-        <File Source="$(env.VOSVIDEO_ROOT)\rtbcserver2\Release\cpprest120_2_4.dll" KeyPath="yes" />
+        <File Source="$(env.VOSVIDEO_ROOT)\vosvideoserver\Release\cpprest140_2_8.dll" KeyPath="yes" />
       </Component>
     </ComponentGroup>
   </Fragment>
