@@ -2,458 +2,357 @@
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
     <Fragment>
         <DirectoryRef Id="INSTALLBINFOLDER">
-            <Component Id="cmp3190D067C2E1D6B87E52AD761406B02C" Guid="{951AC9E8-42D7-4020-AD99-C23691102AA2}">
+            <Component Id="cmp3190D067C2E1D6B87E52AD761406B02C" Guid="{15B07BF2-467E-4C5F-8CAF-FFAAD6E3E991}">
                 <File Id="filF5A88F4BA09FC03F667A94A0E65D7338" KeyPath="yes" Source="$(var.SourceBinDir)\liba52-0.dll" />
             </Component>
-            <Component Id="cmpD0D100A9A0D2A94A734C4140510D6726" Guid="{09A7B4CF-49AB-4400-9DA3-EADBF0B6146D}">
-                <File Id="fil9D651D2C9AEC19C4118C8006E5B04794" KeyPath="yes" Source="$(var.SourceBinDir)\libass-4.dll" />
+            <Component Id="cmp7548569B62E3CFA9415F279D4817C91B" Guid="{41001C57-33C6-4EA8-A7EB-1062324FF02B}">
+                <File Id="filC900A83C86B1A4A2BDDA00B1489C8DB3" KeyPath="yes" Source="$(var.SourceBinDir)\libass-5.dll" />
             </Component>
-            <Component Id="cmp7F499E197F85D5BACA7C607B0C75B841" Guid="{99421181-880E-41F3-A1DA-878070173F26}">
-                <File Id="fil9BA8205871150440C1A078C51983E507" KeyPath="yes" Source="$(var.SourceBinDir)\libatk-1.0-0.dll" />
-            </Component>
-            <Component Id="cmpFFF2A7C8274B755AAC90923B5C61D153" Guid="{8EA1A019-763C-41E9-A93B-21E814DFF082}">
+            <Component Id="cmpFFF2A7C8274B755AAC90923B5C61D153" Guid="{7229BB78-2FFF-44F1-9A1B-BEBD9D07E5AC}">
                 <File Id="filD5B7DA8A972B6F4364841E90F4FBB3CC" KeyPath="yes" Source="$(var.SourceBinDir)\libbz2.dll" />
             </Component>
-            <Component Id="cmp73CDDBC6F4EA49200022405F2194D343" Guid="{43BF4DEA-7841-42C6-9AEC-66A10DFCE82A}">
+            <Component Id="cmp73CDDBC6F4EA49200022405F2194D343" Guid="{DC36561D-D6E7-4146-A8FF-C5A4473560E0}">
                 <File Id="fil09B4A9333CB5DAA6BF438116C546B3B9" KeyPath="yes" Source="$(var.SourceBinDir)\libcairo-2.dll" />
             </Component>
-            <Component Id="cmp98923712297228694DCD1960E061B321" Guid="{BAE37305-ACA9-4058-8794-FEF541277E8B}">
+            <Component Id="cmp98923712297228694DCD1960E061B321" Guid="{69FF66A2-7429-46CE-A946-A6492956A82F}">
                 <File Id="filC5AC9BDF8EB26D2DB33A4D52B8CAAC65" KeyPath="yes" Source="$(var.SourceBinDir)\libcairo-gobject-2.dll" />
             </Component>
-            <Component Id="cmp7FC7C4A09A2305D27DB1361D7A8A6746" Guid="{F4103051-C626-413B-ADCF-937D0B2DCE8D}">
+            <Component Id="cmp7FC7C4A09A2305D27DB1361D7A8A6746" Guid="{E9735F18-3F6A-4829-9BD9-D4BAB2F3FAF8}">
                 <File Id="filC83F2BB292170420A2873A6626E74E85" KeyPath="yes" Source="$(var.SourceBinDir)\libcairo-script-interpreter-2.dll" />
             </Component>
-            <Component Id="cmp613800FBEECC1D9158BD8F9506105866" Guid="{9B557D13-23A2-4C40-A6FB-0C89C0645EE8}">
+            <Component Id="cmp613800FBEECC1D9158BD8F9506105866" Guid="{E27FE37D-BFA4-40D9-92B0-C83DFB626AA8}">
                 <File Id="filCF17E12B77039694A2529523908004B0" KeyPath="yes" Source="$(var.SourceBinDir)\libcharset-1.dll" />
             </Component>
-            <Component Id="cmpF3C9049B726063CF10C16FAA69E5F6E2" Guid="{2B580B6D-0D93-40CA-BD29-3F3FEC19CFC7}">
-                <File Id="filBD824DC3E5423654F2D191620032DBDB" KeyPath="yes" Source="$(var.SourceBinDir)\libclutter-gst-1.0-0.dll" />
-            </Component>
-            <Component Id="cmpA389F8B7C152B4FA31AAE30CECAC6C01" Guid="{F5F8C24F-E2C2-4A7E-99CE-BA2A5FDAC88F}">
-                <File Id="fil8506988CA89A03B3FDB682A2BB83FBF8" KeyPath="yes" Source="$(var.SourceBinDir)\libclutter-win32-1.0-0.dll" />
-            </Component>
-            <Component Id="cmp3FDE7FED87270A44E7779339E3CCC369" Guid="{5913E1B4-C099-433C-9D3D-A719906E308E}">
-                <File Id="fil8BAC3100CA74616175E076060585F47D" KeyPath="yes" Source="$(var.SourceBinDir)\libcogl-5.dll" />
-            </Component>
-            <Component Id="cmp21696F84C6E2BDD2BE190E50C49F67AA" Guid="{2B592F15-F199-4D7F-9BC8-41E91FD9977D}">
-                <File Id="fil01A6950D56AE3D4731F666D385FC28D5" KeyPath="yes" Source="$(var.SourceBinDir)\libcogl-pango-0.dll" />
-            </Component>
-            <Component Id="cmp226B31B6F33D3A699E2923A3274AD369" Guid="{9BA28518-7126-40F6-A3F0-0AB7F05716F5}">
+            <Component Id="cmp226B31B6F33D3A699E2923A3274AD369" Guid="{9EEE3D48-E329-4BA5-8B91-77F0D6013101}">
                 <File Id="filAAD1CC2846274B2DFD1DADBE22CB47DB" KeyPath="yes" Source="$(var.SourceBinDir)\libcroco-0.6-3.dll" />
             </Component>
-            <Component Id="cmpAF1B6A0D486C7011C334A2235FE59B2D" Guid="{DFB2484E-5F17-4718-B7D1-4F0280CC3E8E}">
-                <File Id="fil09F1E3D68BCB38FD08A415DA5BA97EB2" KeyPath="yes" Source="$(var.SourceBinDir)\libdbus-1-3.dll" />
-            </Component>
-            <Component Id="cmp45EAB897721B03E4D9EA9BE30213D9B0" Guid="{5E0EBB9F-2583-44FA-839D-05AEB2F29881}">
-                <File Id="fil58F1A7E1461B5DA8517F5185A4395197" KeyPath="yes" Source="$(var.SourceBinDir)\libdbus-glib-1-2.dll" />
-            </Component>
-            <Component Id="cmp07424058C103E43BC30541DBB4234D8C" Guid="{0233C7D6-87BC-42B6-830F-A87D7FCD09CC}">
+            <Component Id="cmp07424058C103E43BC30541DBB4234D8C" Guid="{C6300346-F38C-44A7-BA02-B8F6A3914C23}">
                 <File Id="filB43B43F31BB6F89A2D78503964184DFD" KeyPath="yes" Source="$(var.SourceBinDir)\libdca-0.dll" />
             </Component>
-            <Component Id="cmp20A3448A7044E36E37A0D14C1769B40F" Guid="{729CD38D-1218-487E-B7A1-56B1E5F5E6C3}">
+            <Component Id="cmp20A3448A7044E36E37A0D14C1769B40F" Guid="{FA8493BE-4D7F-4E2D-B05A-501147466A90}">
                 <File Id="fil6E23176A8CAF75DF31EB4F17B186B251" KeyPath="yes" Source="$(var.SourceBinDir)\libdv-4.dll" />
             </Component>
-            <Component Id="cmp67BDA6673E181A0E8FB020E947BADA6F" Guid="{C16BA56F-3E22-4A10-8D0F-278B8682B1B2}">
+            <Component Id="cmp67BDA6673E181A0E8FB020E947BADA6F" Guid="{D56B28D9-84B5-4E70-85AF-CFBA1210E2CE}">
                 <File Id="fil7F7F6FD80F9671F12505C8D3BD18EF76" KeyPath="yes" Source="$(var.SourceBinDir)\libdvdnav-4.dll" />
             </Component>
-            <Component Id="cmpF0E698D573C485176A711FEBCCC51C30" Guid="{02CFDCE5-F506-4668-9142-196DA5E46A6B}">
-                <File Id="filB5CAB3A8E12B1D670E805F593060E0B1" KeyPath="yes" Source="$(var.SourceBinDir)\libdvdnavmini-4.dll" />
-            </Component>
-            <Component Id="cmp352E4B15A186FF98794BC0E29980597F" Guid="{534879F5-0F31-43E1-A163-A4137E739DEF}">
+            <Component Id="cmp352E4B15A186FF98794BC0E29980597F" Guid="{453878A6-9802-4CE7-92B9-696AEA95FE3B}">
                 <File Id="filD10477B967E81C6670A8266D3FC35022" KeyPath="yes" Source="$(var.SourceBinDir)\libdvdread-4.dll" />
             </Component>
-            <Component Id="cmpB705C9DF5BAA42BFB0AD6BC375E21B5F" Guid="{C1E34B6D-5938-4727-8613-7E092E876A57}">
+            <Component Id="cmpB705C9DF5BAA42BFB0AD6BC375E21B5F" Guid="{6B87181A-BAA7-416E-A6B7-F61E7DB71EC8}">
                 <File Id="fil5357764DC30A9C532F38FD9858B9FAB9" KeyPath="yes" Source="$(var.SourceBinDir)\libexpat-1.dll" />
             </Component>
-            <Component Id="cmpB58FE5F690B6A29400EA81382B5AB2D2" Guid="{80247478-3F59-49B1-81C9-71E6AC9CB780}">
+            <Component Id="cmpB58FE5F690B6A29400EA81382B5AB2D2" Guid="{047AC44A-D55C-4110-BD9B-82A16F8CBC88}">
                 <File Id="filC56DC851C4B95BB23B0EAD38D676FE8E" KeyPath="yes" Source="$(var.SourceBinDir)\libfaad-2.dll" />
             </Component>
-            <Component Id="cmpF952024BC7437D7A81FB024DA544A6D2" Guid="{09DD9856-64BD-4DA4-B372-322FF5B282AC}">
-                <File Id="fil35FD48D5C2B7EE64C853277B3C69124F" KeyPath="yes" Source="$(var.SourceBinDir)\libffi-6.dll" />
+            <Component Id="cmpD582C78D197796D4AE42C54E5334BC6B" Guid="{E0D44766-B526-4EBD-8B47-487824B4EF27}">
+                <File Id="fil9B54B0AA728D8FD6DB9049DDA8E2A19A" KeyPath="yes" Source="$(var.SourceBinDir)\libffi-7.dll" />
             </Component>
-            <Component Id="cmp27BD00629A3630515D9187F7AFCBC1EB" Guid="{0870F326-9BB8-4764-AF5A-898C7AF3BED3}">
+            <Component Id="cmp27BD00629A3630515D9187F7AFCBC1EB" Guid="{8C7BC5D0-8C71-4A23-96ED-D627CD9F5926}">
                 <File Id="filF2EB0A7D12CAF255C7E7BB6D83D1F067" KeyPath="yes" Source="$(var.SourceBinDir)\libFLAC-8.dll" />
             </Component>
-            <Component Id="cmp9B5D8856D93BC0BC99A4F785EF6E3A6D" Guid="{FFBF6DD1-F0D8-4E56-B1B4-2675829A8137}">
+            <Component Id="cmp9B5D8856D93BC0BC99A4F785EF6E3A6D" Guid="{25FAECBE-51E9-4D3E-A35C-A9783EFCC71A}">
                 <File Id="filE1B646F6E225A8C158C1ACF7740260FD" KeyPath="yes" Source="$(var.SourceBinDir)\libfontconfig-1.dll" />
             </Component>
-            <Component Id="cmp1439BD999719FF9CC1657562A4EB5995" Guid="{BD14FB50-162C-4C26-86A2-CCAD77861663}">
+            <Component Id="cmp1439BD999719FF9CC1657562A4EB5995" Guid="{00BED7FC-094B-4EF9-958C-11590D5E5765}">
                 <File Id="fil6FC6A057503CB347611E86DFE077362A" KeyPath="yes" Source="$(var.SourceBinDir)\libfreetype-6.dll" />
             </Component>
-            <Component Id="cmpA6A5AC84D9C9EFE4DA6F806346E01985" Guid="{C8ED770C-EAE1-4820-9112-F71E8C81078F}">
+            <Component Id="cmpA6A5AC84D9C9EFE4DA6F806346E01985" Guid="{C5E2041F-1B0F-4B05-98DC-83C81C653A1E}">
                 <File Id="filAA255B10149B84A0F11442A3E9CE09C8" KeyPath="yes" Source="$(var.SourceBinDir)\libfribidi-0.dll" />
             </Component>
-            <Component Id="cmp219BCFCA16594D058D9E7F5A3D90FAB1" Guid="{8CF97811-3AE5-4D6C-9A80-CB0A79C86D55}">
-                <File Id="fil9EA77261395AEC9F5B3E3ECB780C6985" KeyPath="yes" Source="$(var.SourceBinDir)\libgailutil-18.dll" />
-            </Component>
-            <Component Id="cmpFBE8CFA292F49A050B4024E5CF128BF7" Guid="{60B11EA2-FA84-4212-B750-0668E82439E7}">
+            <Component Id="cmpFBE8CFA292F49A050B4024E5CF128BF7" Guid="{C3077A22-01BF-49CA-9BFB-5CD4F09C3C6F}">
                 <File Id="fil16186B5DF349EB0B02F185DD43CCC558" KeyPath="yes" Source="$(var.SourceBinDir)\libgcc_s_sjlj-1.dll" />
             </Component>
-            <Component Id="cmp990638A800AB1ED8B7C681E0A980B751" Guid="{7535376E-1CA5-4BD1-B577-824E02FAD605}">
-                <File Id="fil7E3437C05CC139144B12993419F46A56" KeyPath="yes" Source="$(var.SourceBinDir)\libgdk-win32-2.0-0.dll" />
-            </Component>
-            <Component Id="cmpE3767328D583F793E0ABCD11B8F25F98" Guid="{B7B513F9-DA92-4E93-9158-A68DFA775675}">
+            <Component Id="cmpE3767328D583F793E0ABCD11B8F25F98" Guid="{EF58A8E2-D380-4C1A-9C7C-B9B2DFBA4BB0}">
                 <File Id="fil85D79E45328C9BCFDF3D2B674620390D" KeyPath="yes" Source="$(var.SourceBinDir)\libgdk_pixbuf-2.0-0.dll" />
             </Component>
-            <Component Id="cmp4C40D0A39EDC3D8BDC4BE00224DF14E4" Guid="{394F9A4C-D5A2-4CED-9504-E174979ED727}">
-                <File Id="fil6C238EB443A499F50E6FB5F3BAC755BD" KeyPath="yes" Source="$(var.SourceBinDir)\libges-0.10-0.dll" />
+            <Component Id="cmpAABB5E3F47967C0099AE0A4653F4FE7B" Guid="{FC579049-CF01-4ECA-BCD7-6DF2E25DDDCA}">
+                <File Id="fil4EFBC7F8C184F0A9986CBC6E719BB3D5" KeyPath="yes" Source="$(var.SourceBinDir)\libges-1.0-0.dll" />
             </Component>
-            <Component Id="cmp48E164AB2DFA0783177180833024C74F" Guid="{BCA32E93-5D12-4400-B404-D33B39CD7EB7}">
+            <Component Id="cmp48E164AB2DFA0783177180833024C74F" Guid="{B94A27FC-7A53-4F37-87E9-3A63E5CA5B59}">
                 <File Id="filC83640C777AA957F4A16D88BA12D127B" KeyPath="yes" Source="$(var.SourceBinDir)\libgio-2.0-0.dll" />
             </Component>
-            <Component Id="cmpE75C1073DC3330EC849FF93E14E476E3" Guid="{083A43A4-4D23-43B0-8F0E-31630FC812D1}">
+            <Component Id="cmpE75C1073DC3330EC849FF93E14E476E3" Guid="{CA33CA53-C9F9-4308-94BE-CC33C8ACA835}">
                 <File Id="filE4620BA64D953EDAD757F7CDF8349ABA" KeyPath="yes" Source="$(var.SourceBinDir)\libglib-2.0-0.dll" />
             </Component>
-            <Component Id="cmp3CE9EE6C82DBCC3F91073F15F0CAC47C" Guid="{951ACDD3-CE97-487E-8605-EA4298ADE953}">
+            <Component Id="cmp3CE9EE6C82DBCC3F91073F15F0CAC47C" Guid="{8A7B318E-6019-4F79-999A-994CE43A6F61}">
                 <File Id="fil49CC6813CEC1B099BCD4F555C34BFED5" KeyPath="yes" Source="$(var.SourceBinDir)\libgmodule-2.0-0.dll" />
             </Component>
-            <Component Id="cmpB4383EE2F7E57C52D8F16263054BACC8" Guid="{D3FEDD66-3871-4E6E-BE02-D7279166E987}">
-                <File Id="fil6FC3D0CF796BC3CD39F7B3FBF51F6BB9" KeyPath="yes" Source="$(var.SourceBinDir)\libgnutls-28.dll" />
+            <Component Id="cmp6A445F2BEBDAB75AC2AB1AD8AD1B1178" Guid="{4C92DD4F-DBCC-46A5-AB40-19E780AF9BE0}">
+                <File Id="filDE36148F7A699FB9BAFCCEA5AF12C987" KeyPath="yes" Source="$(var.SourceBinDir)\libgmp-10.dll" />
             </Component>
-            <Component Id="cmpC58860F00FE0F7AFE80E07C5B4FAF6C9" Guid="{7968D32C-EC77-4AE8-8815-862C7F573998}">
-                <File Id="filB6937F767BE3917DC1D6FE2B8B05B051" KeyPath="yes" Source="$(var.SourceBinDir)\libgnutls-openssl-27.dll" />
+            <Component Id="cmp85452A4AE72349D93234CD12E6B52953" Guid="{47596632-B127-433F-B5D1-5C6AAE7AAD09}">
+                <File Id="fil48F340B5328033AE22C4EEE3514ED713" KeyPath="yes" Source="$(var.SourceBinDir)\libgnutls-30.dll" />
             </Component>
-            <Component Id="cmpEDCA058DCC10A9D60059FB845EAE08E7" Guid="{62FA10C2-EBC0-42AB-BAC4-122C984B612B}">
+            <Component Id="cmpEDCA058DCC10A9D60059FB845EAE08E7" Guid="{CA44FBE9-8222-4D58-88C2-1AFE53344BB6}">
                 <File Id="filA4A742E9785153CC161033171D246666" KeyPath="yes" Source="$(var.SourceBinDir)\libgnutlsxx-28.dll" />
             </Component>
-            <Component Id="cmpFF383D06FB9A798F710BF3BA1AED12B0" Guid="{31C6B779-90AA-4E9C-98DF-2BB79C1EFAA0}">
+            <Component Id="cmpFF383D06FB9A798F710BF3BA1AED12B0" Guid="{39D0AFAC-E84F-4817-855B-61B81C45B010}">
                 <File Id="fil457008E1C5CE2CC86286A6BA640BB9E4" KeyPath="yes" Source="$(var.SourceBinDir)\libgobject-2.0-0.dll" />
             </Component>
-            <Component Id="cmpAF5107C37C79F9B402E5A5CE79B2B0F6" Guid="{46D0C52D-B547-4A95-84FC-6C351027F052}">
+            <Component Id="cmpAF5107C37C79F9B402E5A5CE79B2B0F6" Guid="{484CF3F2-7B7F-4454-AFA4-8E367BA62D1D}">
                 <File Id="fil7253B8F1C2B495FAFF84084DC49F8E55" KeyPath="yes" Source="$(var.SourceBinDir)\libgomp-1.dll" />
             </Component>
-            <Component Id="cmp5CFF20C2791CB5AB0695762A5951D823" Guid="{E8243850-8936-42A9-A23A-059FFF576604}">
-                <File Id="fil07A4A1EB188624161A4C82D1056534C5" KeyPath="yes" Source="$(var.SourceBinDir)\libgstapp-0.10-0.dll" />
+            <Component Id="cmpE982BEC6B8EC3F0B920855FAF2EF123E" Guid="{6FDE0E80-D069-4D49-A7FB-029D2CC392B6}">
+                <File Id="filEA2D0D5755C402E61D918702E18532A3" KeyPath="yes" Source="$(var.SourceBinDir)\libgraphene-1.0-0.dll" />
             </Component>
-            <Component Id="cmp3A0D36E89908C85DD3216E4A3EC4B271" Guid="{32A8E2F5-A85E-43A4-B4C6-C8019F7530C3}">
-                <File Id="fil00AD6E6A61B200FC2E52F1F7F533A84B" KeyPath="yes" Source="$(var.SourceBinDir)\libgstaudio-0.10-0.dll" />
+            <Component Id="cmpD962B2101DA3A784B049FC2D276EEA0C" Guid="{9F66012D-5DC3-429D-B903-72CE94DAF39E}">
+                <File Id="fil3262CBB8009C59D57A532BE6C72C7198" KeyPath="yes" Source="$(var.SourceBinDir)\libgstadaptivedemux-1.0-0.dll" />
             </Component>
-            <Component Id="cmpB7F13F8BEE95E16CCB1C43D3FE69777F" Guid="{8A56C6F0-00F6-43C7-A56A-EFBAE04809B6}">
-                <File Id="fil546F1A74B9A3FC9F5B385BEF695EE07F" KeyPath="yes" Source="$(var.SourceBinDir)\libgstbase-0.10-0.dll" />
+            <Component Id="cmpF502A18F74173629D0600C99866CECB5" Guid="{FE50521A-A4A7-409C-8D31-C4152586CF94}">
+                <File Id="fil1977B305A02641518D59634526142416" KeyPath="yes" Source="$(var.SourceBinDir)\libgstallocators-1.0-0.dll" />
             </Component>
-            <Component Id="cmpB910267821BA73D2F92AF9D96176CFD6" Guid="{8111DF36-FAA3-4F5A-A3E6-466B6EBC5060}">
-                <File Id="fil5DF6617CA13ABA3881AAEDCB7339CCF5" KeyPath="yes" Source="$(var.SourceBinDir)\libgstbasecamerabinsrc-0.10-23.dll" />
+            <Component Id="cmp3C60492FC665BEA31EE8C2940A259B33" Guid="{397FC1C6-F3BB-4B4D-87A0-EDF5F2907A5F}">
+                <File Id="filEECB94372B1C62400FE72C693F1C7A3A" KeyPath="yes" Source="$(var.SourceBinDir)\libgstapp-1.0-0.dll" />
             </Component>
-            <Component Id="cmp6F3359291AC1E56C6DD7AE6AD7B6DE18" Guid="{A04E76A3-6699-45C9-AFF8-7C9627587834}">
-                <File Id="fil003A6E69C81427371931F8E9CBBD2F90" KeyPath="yes" Source="$(var.SourceBinDir)\libgstbasevideo-0.10-23.dll" />
+            <Component Id="cmpE407A8C803879BB4B172EDE94C06CE92" Guid="{2DC37DE4-78AD-4FFE-9B26-5434DE541DE9}">
+                <File Id="fil6E832D9372BC48483593B53B6595C2BC" KeyPath="yes" Source="$(var.SourceBinDir)\libgstaudio-1.0-0.dll" />
             </Component>
-            <Component Id="cmp7270569352F2076490920AD86B93653A" Guid="{46F33C66-398C-4918-9DA8-00D90565D0CA}">
-                <File Id="fil109CCBB7E97EFA241672E383150EEC2B" KeyPath="yes" Source="$(var.SourceBinDir)\libgstcdda-0.10-0.dll" />
+            <Component Id="cmp66DC1E88BBBE330476F0C9E3973A14AB" Guid="{2C094CD9-51E7-46D1-94B1-9BDCE244271E}">
+                <File Id="fil28579FE3568705E8707578824663A897" KeyPath="yes" Source="$(var.SourceBinDir)\libgstbadallocators-1.0-0.dll" />
             </Component>
-            <Component Id="cmp2FE8557CC8C87E29338BECEFAFEA2D9E" Guid="{761FFD9E-6675-49D2-8302-A0CD7154D0B9}">
-                <File Id="filE64AEEF6C850A6196016737B5AF01160" KeyPath="yes" Source="$(var.SourceBinDir)\libgstcodecparsers-0.10-23.dll" />
+            <Component Id="cmp042FF940FC984C09C21DC209D7CA45D6" Guid="{DF91BB9E-F147-4BD8-8179-4D6F2711700A}">
+                <File Id="filF56959BBB015DB5C50226076139A8F93" KeyPath="yes" Source="$(var.SourceBinDir)\libgstbadaudio-1.0-0.dll" />
             </Component>
-            <Component Id="cmpE9903492C8EE34CFF9A1818F9878780A" Guid="{E79E1F44-4ED5-4280-8FDC-5490CA82DE73}">
-                <File Id="fil6FA13792F59DC038ED52A60C277845C9" KeyPath="yes" Source="$(var.SourceBinDir)\libgstcontroller-0.10-0.dll" />
+            <Component Id="cmp002DFC1AEEC38D45E6AA31DC681DDCF1" Guid="{1131B2B2-B6F3-446F-9CFD-ACAA3F32E7CD}">
+                <File Id="fil5293654F901FB19C4569D4EDAC85F502" KeyPath="yes" Source="$(var.SourceBinDir)\libgstbadbase-1.0-0.dll" />
             </Component>
-            <Component Id="cmp60CA19FCC779C72CB9870A1D29508BC4" Guid="{372BCC1C-92B4-4E3A-8128-39D72DCEE7BE}">
-                <File Id="fil412721BF5566DDB48624B61B1F5C793C" KeyPath="yes" Source="$(var.SourceBinDir)\libgstdataprotocol-0.10-0.dll" />
+            <Component Id="cmp9978EF90E95B772524C19FF1EBB4E460" Guid="{C2928D84-4CB7-4B54-9C00-427CC2A44513}">
+                <File Id="filA1947B44AEFC5C73F84580E78826EFE1" KeyPath="yes" Source="$(var.SourceBinDir)\libgstbadvideo-1.0-0.dll" />
             </Component>
-            <Component Id="cmp7B2EDC464C94E438BE1A5DBBF9B8D8FB" Guid="{7E0B166C-919C-4A71-B00D-AD920DB85FBA}">
-                <File Id="fil0CA6A0D215E37188E0810DC33ACF99E0" KeyPath="yes" Source="$(var.SourceBinDir)\libgstfft-0.10-0.dll" />
+            <Component Id="cmp05C4D04BFA338E649869AB39C94DC901" Guid="{A6C96DCC-706E-4D28-8344-768EB5128358}">
+                <File Id="fil7DCB69C4053F68EAD411ED6CB2116F96" KeyPath="yes" Source="$(var.SourceBinDir)\libgstbase-1.0-0.dll" />
             </Component>
-            <Component Id="cmpB7F35389163E8C55AE0A6F7D27FF2213" Guid="{9FE9DDFB-BD81-45C4-9F00-0352FA7640DF}">
-                <File Id="fil2208CAF52755C55D22D75C47EF366B63" KeyPath="yes" Source="$(var.SourceBinDir)\libgstinterfaces-0.10-0.dll" />
+            <Component Id="cmp08AD8FBA1F3E5EAC0C85FB70DCFEAA1D" Guid="{E68B94B5-5572-4A93-9634-79283B065F5F}">
+                <File Id="filBEFA9337E2FA3E546F00AE0E28C248BD" KeyPath="yes" Source="$(var.SourceBinDir)\libgstbasecamerabinsrc-1.0-0.dll" />
             </Component>
-            <Component Id="cmp9BDB0BBDC91BB03C7CCADBC08846FEE7" Guid="{1BCD5A6B-D166-4503-B9DA-66E8CA199BF6}">
-                <File Id="filDD43670BF40C37610BB86CBF601B0830" KeyPath="yes" Source="$(var.SourceBinDir)\libgstnet-0.10-0.dll" />
+            <Component Id="cmp1919779D3FB9C42162CC0AD38A777A2E" Guid="{9CF90E73-E4FE-4A9A-B61E-533FE82154DC}">
+                <File Id="fil8C583F3FF489684568CD2542536B2D79" KeyPath="yes" Source="$(var.SourceBinDir)\libgstcodecparsers-1.0-0.dll" />
             </Component>
-            <Component Id="cmpED18EE78E39A2552C0AA645872D9F845" Guid="{A7F9AFCC-7CBA-444F-B13A-5DB6E6DA8C9D}">
-                <File Id="filF955AA0E3BCC12C7409FD6A53E0C3E35" KeyPath="yes" Source="$(var.SourceBinDir)\libgstnetbuffer-0.10-0.dll" />
+            <Component Id="cmp3EC11E452D2D9F5F31177CBFB9AC3499" Guid="{7CC1A524-0E4B-47CA-88BA-12C882A6BA47}">
+                <File Id="fil9C8DD3BBE4224319E3A88800947EED3A" KeyPath="yes" Source="$(var.SourceBinDir)\libgstcontroller-1.0-0.dll" />
             </Component>
-            <Component Id="cmp09B4396B5B80F5C9308B98893A776597" Guid="{3553A642-B1CF-4F36-BA44-7F16E828FBE3}">
-                <File Id="fil542C2DC2EE3CBA44268202B8C0CE8913" KeyPath="yes" Source="$(var.SourceBinDir)\libgstpbutils-0.10-0.dll" />
+            <Component Id="cmpF70AE8F006F00D19F89BE652075F1E2D" Guid="{C2DA3C37-92EB-45E5-88A6-F801702F1F17}">
+                <File Id="fil79BC513FDE105CCE85F34B8299D7D10C" KeyPath="yes" Source="$(var.SourceBinDir)\libgstfft-1.0-0.dll" />
             </Component>
-            <Component Id="cmp9AFE438D25CA1AAF998FE0F1F51BB0C8" Guid="{57700F6A-F09C-4890-B171-6FE41355881C}">
-                <File Id="fil0ACDFEDC35DDFEC7F502DAFC0C88BCA5" KeyPath="yes" Source="$(var.SourceBinDir)\libgstphotography-0.10-23.dll" />
+            <Component Id="cmp46C595533BF3C8A6ACA04EC1650EFA1D" Guid="{518B1299-C944-4CF4-8F46-76E344FEE46D}">
+                <File Id="fil1B972BEBC35C06CF9DD9CE4A51DB896D" KeyPath="yes" Source="$(var.SourceBinDir)\libgstgl-1.0-0.dll" />
             </Component>
-            <Component Id="cmp91CF7267633F774B30990E84975BDA9E" Guid="{ACF28B5C-D75D-47E4-AFF1-388B8BAB1026}">
-                <File Id="filDD74F42A8DC6946129FDA46A8AADD593" KeyPath="yes" Source="$(var.SourceBinDir)\libgstreamer-0.10-0.dll" />
+            <Component Id="cmp4F0E4DB9A8DA23AE714A7EC3EE09F3DE" Guid="{38B691D1-6C98-4F06-93A6-B101FBF40619}">
+                <File Id="fil990AB276F2685934D8EDA95BDBE74B98" KeyPath="yes" Source="$(var.SourceBinDir)\libgstinsertbin-1.0-0.dll" />
             </Component>
-            <Component Id="cmp789E31D03135C693A49CF04169DF4709" Guid="{6BAD0AD7-1B9E-4FDF-BC2E-554998D2E666}">
-                <File Id="fil2CE132872F5B8FAB85EB387256A2AB46" KeyPath="yes" Source="$(var.SourceBinDir)\libgstriff-0.10-0.dll" />
+            <Component Id="cmp9F230712B60477A7D5FBBFD67CA8280C" Guid="{D0A2BA6F-8765-4169-9639-6154D88B21F1}">
+                <File Id="fil3641EB1847D91CDC0363755BE6CE6553" KeyPath="yes" Source="$(var.SourceBinDir)\libgstmpegts-1.0-0.dll" />
             </Component>
-            <Component Id="cmpFEC9A2AE85C3AA6D5EC61ABD68D37F3A" Guid="{ABF154FB-60EC-4B00-AF0A-C487E4F7F184}">
-                <File Id="fil8197B1F69DEDBAAD60392A6C1F0FCA8C" KeyPath="yes" Source="$(var.SourceBinDir)\libgstrtp-0.10-0.dll" />
+            <Component Id="cmp6EBF343B06A28BBC7BCC804C5F50826B" Guid="{569620CB-9A82-494D-9FF7-C4D8ECE9BECF}">
+                <File Id="fil8CF876B2D655CA239B9BB9E25D0E8DD8" KeyPath="yes" Source="$(var.SourceBinDir)\libgstnet-1.0-0.dll" />
             </Component>
-            <Component Id="cmp3884A665FF34992BBA6BEDCA4431E616" Guid="{82C08AC2-BCB7-466E-A5CB-D3E653BFAAC2}">
-                <File Id="fil50FF002E7BD202D292FB6B86C449F9CE" KeyPath="yes" Source="$(var.SourceBinDir)\libgstrtsp-0.10-0.dll" />
+            <Component Id="cmp4FDC0EC5707E850E14EC4FE815526698" Guid="{4A63A56D-2590-4C94-A508-C6B344858D9E}">
+                <File Id="fil88D16EAC71031E72D34BEE878FDB0621" KeyPath="yes" Source="$(var.SourceBinDir)\libgstpbutils-1.0-0.dll" />
             </Component>
-            <Component Id="cmpC0A021592597908F4EAE1A2A8BBB11F5" Guid="{43A51870-4FD8-4EFE-A678-3755945B9500}">
-                <File Id="fil4B9D358C9DE6FDAC187E130C9E1CB76C" KeyPath="yes" Source="$(var.SourceBinDir)\libgstsdp-0.10-0.dll" />
+            <Component Id="cmpAE7C79859AD276936393930543FB137A" Guid="{53100349-6650-43DD-A5EF-6FB4A59D044C}">
+                <File Id="fil5DB0529FE94D77BCECD25F84A5B18CB0" KeyPath="yes" Source="$(var.SourceBinDir)\libgstphotography-1.0-0.dll" />
             </Component>
-            <Component Id="cmp63525BEB8CB28C1B83B942B8315585A2" Guid="{6CD05208-BB96-4487-B756-1CD0C33CD3E0}">
-                <File Id="filDF5C2498899B5843F3D0BC0D9685268A" KeyPath="yes" Source="$(var.SourceBinDir)\libgsttag-0.10-0.dll" />
+            <Component Id="cmp0E2AA442363A6C6405AA9B325174BC1B" Guid="{B9392C2F-9972-48A0-9ACB-914A8E915474}">
+                <File Id="fil25160D79C58D6668BF6C2114B05C661A" KeyPath="yes" Source="$(var.SourceBinDir)\libgstplayer-1.0-0.dll" />
             </Component>
-            <Component Id="cmpB462A28F9A88D88B5DEBD9B0379BAA9F" Guid="{A82AE90C-26A7-4F75-BF2C-CC18336F4B82}">
-                <File Id="fil1479B23CC68702F7DF82D4492DF8E1D7" KeyPath="yes" Source="$(var.SourceBinDir)\libgstvideo-0.10-0.dll" />
+            <Component Id="cmp312004A00AC15A799DCC2951CAFF9ED0" Guid="{24D0CED4-D092-48FE-9539-EC0D666A2B91}">
+                <File Id="fil593E6C5082ABC4CB2F4A059C55942B6B" KeyPath="yes" Source="$(var.SourceBinDir)\libgstreamer-1.0-0.dll" />
             </Component>
-            <Component Id="cmpC97B65029F211ACF36A5FFC20A6CDA2E" Guid="{76C6655E-68BA-4EAF-8A3D-AA5427C3233F}">
+            <Component Id="cmpE9EE31A228A19DA116613427A5527DA7" Guid="{1168AB7F-3388-45FE-ACA8-8119C9B3BC9D}">
+                <File Id="filA69D5A90749558962C19D38D3D8A1378" KeyPath="yes" Source="$(var.SourceBinDir)\libgstriff-1.0-0.dll" />
+            </Component>
+            <Component Id="cmp6B61C06C8CAA09139BF11AE57163262B" Guid="{0325C07C-D479-49EB-A399-4C1FC83C403E}">
+                <File Id="fil650539C82E1904BB6FFA0260C51B9316" KeyPath="yes" Source="$(var.SourceBinDir)\libgstrtp-1.0-0.dll" />
+            </Component>
+            <Component Id="cmpF6EE2CAF4A894CD9FA62A1FA18C45716" Guid="{E652A49F-3566-4682-A86B-98D0F590E86E}">
+                <File Id="filD87BEEE8093312377D82408CF4A9A430" KeyPath="yes" Source="$(var.SourceBinDir)\libgstrtsp-1.0-0.dll" />
+            </Component>
+            <Component Id="cmp7F7EB21A72FF9B3BD662885710C31CF3" Guid="{F61B9841-26D0-4FB4-9AC7-7D9CA358531D}">
+                <File Id="fil8D252015E5F4728F1AFDD8BC6C342D31" KeyPath="yes" Source="$(var.SourceBinDir)\libgstrtspserver-1.0-0.dll" />
+            </Component>
+            <Component Id="cmpD2588FBE1D84C0AE6F6680DF76B24BD6" Guid="{CCFE15B6-7ED3-4AEE-9362-BDFD85F9FF66}">
+                <File Id="filB624A3120D8E4F481B819D5CB5DB187B" KeyPath="yes" Source="$(var.SourceBinDir)\libgstsdp-1.0-0.dll" />
+            </Component>
+            <Component Id="cmpC4013BD45D2E8D1C6E032679658079C6" Guid="{00DA2E97-3EDA-444F-B487-190E092CE494}">
+                <File Id="fil3C2221CC741C8D13F2A29C5D58EBFBD8" KeyPath="yes" Source="$(var.SourceBinDir)\libgsttag-1.0-0.dll" />
+            </Component>
+            <Component Id="cmp23793A944C7B45D457EDE360AF5B3C3F" Guid="{C12BC92F-BB10-49FF-A4A9-BF9628F9B281}">
+                <File Id="filE60FADAB688F1C689910489A21DD30CC" KeyPath="yes" Source="$(var.SourceBinDir)\libgsturidownloader-1.0-0.dll" />
+            </Component>
+            <Component Id="cmp8EA10F63122A99B2FDFC3DF0934EA5EB" Guid="{A246261A-0F41-4A4B-8E1C-5FE314BBACEC}">
+                <File Id="fil6E0562C47F5826D743F06F36BC0FD464" KeyPath="yes" Source="$(var.SourceBinDir)\libgstvalidate-1.0-0.dll" />
+            </Component>
+            <Component Id="cmp2C82F030BAA4AAE8D9546C98211B52BC" Guid="{D9B8BE42-31F1-4401-8330-646242E89D27}">
+                <File Id="fil08089A1FB1C048460BE3B21BFE5D8D47" KeyPath="yes" Source="$(var.SourceBinDir)\libgstvideo-1.0-0.dll" />
+            </Component>
+            <Component Id="cmpC97B65029F211ACF36A5FFC20A6CDA2E" Guid="{D439F851-A40E-419C-BA5B-8AC44C75B638}">
                 <File Id="fil93820465E9F980F0E972DE587482C7BA" KeyPath="yes" Source="$(var.SourceBinDir)\libgthread-2.0-0.dll" />
             </Component>
-            <Component Id="cmpF9C5B76FEECB3FE826CFA3D45DA755B4" Guid="{CF6E8862-5C50-44AE-93CC-B2ED89A21538}">
-                <File Id="fil1DB5302117D90FCDF6C7A412D2DB21AB" KeyPath="yes" Source="$(var.SourceBinDir)\libgtk-win32-2.0-0.dll" />
+            <Component Id="cmp0AD01B7EBA394111D8C213E2CD780ED9" Guid="{5161524A-5A5C-4A06-8A62-5FDA387E4550}">
+                <File Id="filFAD33C44F3E8F198E4860B9F0F3A7EBF" KeyPath="yes" Source="$(var.SourceBinDir)\libharfbuzz-0.dll" />
             </Component>
-            <Component Id="cmpDF7E31EEF4F84153B018501E1524FC83" Guid="{0A85477F-D3D6-46F1-AEB9-498D3ECB626B}">
-                <File Id="fil9A028D5F75A7D506D22B46CE2E3CB75D" KeyPath="yes" Source="$(var.SourceBinDir)\libhogweed-2-2.dll" />
+            <Component Id="cmp2C7CB80730EBA0E22CA89F59378C7E13" Guid="{A41BFCB4-92E6-4A82-AADB-BA0732168CAD}">
+                <File Id="fil8C923A923E7C8A099AF5F73654DA077F" KeyPath="yes" Source="$(var.SourceBinDir)\libhogweed-4.dll" />
             </Component>
-            <Component Id="cmpF54DF3E28900E5C91C5C168A34E30335" Guid="{515331DF-E16F-44DE-8CFB-C8C1DAECCD5A}">
+            <Component Id="cmpF54DF3E28900E5C91C5C168A34E30335" Guid="{17B05B44-4942-4E7D-9FCF-AC900B78B46D}">
                 <File Id="fil265CE78C6016C7DCAA26DFDC80CD0BAA" KeyPath="yes" Source="$(var.SourceBinDir)\libiconv-2.dll" />
             </Component>
-            <Component Id="cmp52386906140F9A0D553748D4A8801F2B" Guid="{238DD4BF-F006-4E53-B311-590FB35FE1BA}">
-                <File Id="filF01C0D7163FA68AC15C95F2409484985" KeyPath="yes" Source="$(var.SourceBinDir)\libinsanity-1.0-0.dll" />
-            </Component>
-            <Component Id="cmp6C4D5070069BCE372EC1FAB1E89102DA" Guid="{132F1AF5-5DEE-4CA7-A7F7-7E35BA8A9A80}">
-                <File Id="fil2911ADB194416389B3A858EC0C2715A2" KeyPath="yes" Source="$(var.SourceBinDir)\libinsanity-gst-0.10-0.dll" />
-            </Component>
-            <Component Id="cmp1FEF7CE4DC6338F21FB29DFE88FD0F61" Guid="{BA0ED8E2-B5AC-4D13-95A0-1A3304C4BED3}">
+            <Component Id="cmp1FEF7CE4DC6338F21FB29DFE88FD0F61" Guid="{2FD4AE47-1E46-43C8-84A7-D21A9B290C75}">
                 <File Id="fil3AC02ACAD25CDEE792A3EFD154626B64" KeyPath="yes" Source="$(var.SourceBinDir)\libintl-8.dll" />
             </Component>
-            <Component Id="cmpA43124250FD36E3905A288D40044C694" Guid="{A71C599E-8C86-494D-9B0D-5E2B4209C2BE}">
-                <File Id="fil4B53F8792BA1C3632F6090AC5466991F" KeyPath="yes" Source="$(var.SourceBinDir)\libjasper-1.dll" />
-            </Component>
-            <Component Id="cmpE4C2ACE1509533801CADCAEA8BBEB0E7" Guid="{5575BD69-F80F-4E3B-AA29-F20F0E86BA5E}">
+            <Component Id="cmpE4C2ACE1509533801CADCAEA8BBEB0E7" Guid="{D2F4B4D4-CD88-4093-B6B8-6C864CFDE642}">
                 <File Id="filC94D53F623232DDB583BFC47A043252C" KeyPath="yes" Source="$(var.SourceBinDir)\libjpeg-8.dll" />
             </Component>
-            <Component Id="cmpD276F396A7E18250D3667744EF09C3FB" Guid="{03D52EA5-4766-427D-9FBE-494D73973FA3}">
+            <Component Id="cmpD276F396A7E18250D3667744EF09C3FB" Guid="{83EC70A0-F502-4121-8774-B563CEC85A76}">
                 <File Id="fil8C39E2CCF9BCDB7B4069EC2F019535A5" KeyPath="yes" Source="$(var.SourceBinDir)\libjson-glib-1.0-0.dll" />
             </Component>
-            <Component Id="cmp300D0D974A709BB87C87B1E2D76CE0D4" Guid="{59FADD30-9A08-44D8-AC49-6EF23DCD6588}">
+            <Component Id="cmp300D0D974A709BB87C87B1E2D76CE0D4" Guid="{78FE943E-33F8-4E87-B0BF-3E742680F5C6}">
                 <File Id="filAB220BC079ABB2FB62076E855D11B8D3" KeyPath="yes" Source="$(var.SourceBinDir)\libkate-1.dll" />
             </Component>
-            <Component Id="cmp69438B8609830D123BDE2511D323EC4D" Guid="{A618D613-59D2-45E1-A45E-68864BFE3FC0}">
+            <Component Id="cmp69438B8609830D123BDE2511D323EC4D" Guid="{50454E8F-B111-47B0-AE5C-55C55607A26C}">
                 <File Id="filB9E7A44F8124C2110204A7F8CEFA7623" KeyPath="yes" Source="$(var.SourceBinDir)\libmms-0.dll" />
             </Component>
-            <Component Id="cmp06CAA2BDEE256265410DC6307C64B141" Guid="{038B316B-05EB-4814-B934-35CF20065A66}">
+            <Component Id="cmp9212F0B6C75E3CE9421C817D5189EA35" Guid="{E94E8D50-1009-40A3-8746-A2B122CE7158}">
+                <File Id="fil36BD3C4BD2F546DD567D25E3F3CC6F9D" KeyPath="yes" Source="$(var.SourceBinDir)\libmp3lame-0.dll" />
+            </Component>
+            <Component Id="cmp06CAA2BDEE256265410DC6307C64B141" Guid="{0621B231-E0F6-41E6-A94E-92DC96A7D881}">
                 <File Id="filBCED413D06CACE8B85A58EAF36F32D4D" KeyPath="yes" Source="$(var.SourceBinDir)\libmpeg2-0.dll" />
             </Component>
-            <Component Id="cmp93EF99E3F8FA47E1EDF04104ED8D87F9" Guid="{99E9F149-9511-4B6F-B87D-5E319DBA3CBD}">
+            <Component Id="cmp93EF99E3F8FA47E1EDF04104ED8D87F9" Guid="{8B7278F5-2F01-4274-AD7E-DB528DF146D4}">
                 <File Id="fil14F152D1D8E76047B99727C19B56E795" KeyPath="yes" Source="$(var.SourceBinDir)\libmpeg2convert-0.dll" />
             </Component>
-            <Component Id="cmp5EBC1EF2C48473941473BB4F701A4D55" Guid="{BD60A4AE-7E51-49AD-B62B-015D7FEA56A4}">
-                <File Id="fil3040ABC2F4166957F0B59D7482391859" KeyPath="yes" Source="$(var.SourceBinDir)\libnettle-4-4.dll" />
+            <Component Id="cmp158DFC0DD13F70D2F4FD611BA2E92F61" Guid="{2B2911CD-8833-4DE3-BF52-D201B7A46EEA}">
+                <File Id="filFA7A47D882E68535BC7B1A411BABA4C9" KeyPath="yes" Source="$(var.SourceBinDir)\libmpg123-0.dll" />
             </Component>
-            <Component Id="cmp70D3A63A0AC4CA44EFCB8A2434F28C3B" Guid="{6B3B5142-228F-41E7-ABD5-2063AAB3B3A4}">
+            <Component Id="cmpD721763E3D17DFD4C5397D033F90E3CF" Guid="{053813F8-EA19-4370-99BB-827C3FAA343F}">
+                <File Id="fil55D909E51C565E97AD5DDC3AD41381EB" KeyPath="yes" Source="$(var.SourceBinDir)\libnettle-6.dll" />
+            </Component>
+            <Component Id="cmp9DD2DAF4E910D05118DCA32EDD7100CB" Guid="{348196A4-EFBB-481C-991E-AE784264A9D0}">
+                <File Id="fil0369750B8D77A0575646261B151ACFE2" KeyPath="yes" Source="$(var.SourceBinDir)\libnice-10.dll" />
+            </Component>
+            <Component Id="cmp70D3A63A0AC4CA44EFCB8A2434F28C3B" Guid="{916DF886-476E-4D18-91F7-5A758B3091D8}">
                 <File Id="fil5CE064FB7A33C18EBDB063AED4F65ABC" KeyPath="yes" Source="$(var.SourceBinDir)\libogg-0.dll" />
             </Component>
-            <Component Id="cmp9A1E941019F496ECF821F5308B3CFFD3" Guid="{36877EAC-6A3A-40F1-916C-05FDCA112984}">
+            <Component Id="cmp9A1E941019F496ECF821F5308B3CFFD3" Guid="{4047AB42-20BB-4DDE-98B5-272E1B00E0B3}">
                 <File Id="filE2C345A8EE2BDA88CAED7AE2EA147F11" KeyPath="yes" Source="$(var.SourceBinDir)\liboggkate-1.dll" />
             </Component>
-            <Component Id="cmpF4B148BABDC74489372400ED9EAF5D95" Guid="{00A91562-84E2-411C-AF60-AB05B4D0D429}">
+            <Component Id="cmpF4B148BABDC74489372400ED9EAF5D95" Guid="{3064B41A-5E4E-4431-9564-1AE2A3B54AE7}">
                 <File Id="fil32B51692676495E27E4637C496099B68" KeyPath="yes" Source="$(var.SourceBinDir)\libopencore-amrnb-0.dll" />
             </Component>
-            <Component Id="cmpC06E7D599FD08869FE6EFBB622F219B9" Guid="{B5D98938-AB5C-4F2A-8C67-9E0974BFB62A}">
+            <Component Id="cmpC06E7D599FD08869FE6EFBB622F219B9" Guid="{87C09344-E6D8-4A51-912F-50A0367632F2}">
                 <File Id="fil5C26EFE1E7FC3FC66BD6FE51B0D83588" KeyPath="yes" Source="$(var.SourceBinDir)\libopencore-amrwb-0.dll" />
             </Component>
-            <Component Id="cmp59B259C457A5687DB8F2D7349660C469" Guid="{A5D6CF26-7FAB-4808-8E99-199E698B782A}">
+            <Component Id="cmp1C7AC96116AB5776C09E37E1F88DFA47" Guid="{AD296453-AFA1-4CE9-981A-292276DD8C52}">
+                <File Id="fil4A48597DC8B4913F184FD7F2B2B9BF78" KeyPath="yes" Source="$(var.SourceBinDir)\libopenh264.dll" />
+            </Component>
+            <Component Id="cmp9E6E9A30463D6627D867BD3A5958D5C1" Guid="{61E28329-A88B-4A95-9CEF-EA648A1866C0}">
+                <File Id="filEAA06BC27E6B1E05EDB3FF3DEE2C3225" KeyPath="yes" Source="$(var.SourceBinDir)\libopenjp2.dll" />
+            </Component>
+            <Component Id="cmp59B259C457A5687DB8F2D7349660C469" Guid="{FDFBD7D5-23CC-449A-BF16-4AFCA0ED7527}">
                 <File Id="filEF314E803DBCAD6F5F56688748958D57" KeyPath="yes" Source="$(var.SourceBinDir)\libopus-0.dll" />
             </Component>
-            <Component Id="cmpFAED03E104BE4364A5D57CA69D65DF93" Guid="{8563C706-3A04-4E6C-BE68-550DDB260EAF}">
+            <Component Id="cmpFAED03E104BE4364A5D57CA69D65DF93" Guid="{C5B488FB-8608-47C8-8502-8192736DBCA9}">
                 <File Id="fil8BF17C7E51C3D431F2255946F7A72F41" KeyPath="yes" Source="$(var.SourceBinDir)\liborc-0.4-0.dll" />
             </Component>
-            <Component Id="cmp9596819380AAC30226097C80502689D5" Guid="{F983A471-DFBE-4080-AE52-BA4606D44781}">
+            <Component Id="cmp9596819380AAC30226097C80502689D5" Guid="{CFA0BD9A-3AC0-4AED-9FE4-9AAD6DBBE530}">
                 <File Id="fil92EE015364DD3C01E53FCF4A72769C9A" KeyPath="yes" Source="$(var.SourceBinDir)\liborc-test-0.4-0.dll" />
             </Component>
-            <Component Id="cmpEB924EC1A2372FC1B0CB256C86FB20EA" Guid="{820E5DF0-60CE-4595-B891-79BF4507FE59}">
+            <Component Id="cmpEB924EC1A2372FC1B0CB256C86FB20EA" Guid="{465DC018-5228-484F-A288-304A3BE5910A}">
                 <File Id="fil08E6DC3D576CDB1BF7EB09EE064CD04A" KeyPath="yes" Source="$(var.SourceBinDir)\libpango-1.0-0.dll" />
             </Component>
-            <Component Id="cmp33985C0BCBF7011813AEAF837FBF9AFE" Guid="{92871C7A-8C60-4EE8-A0C8-11432CE83F78}">
+            <Component Id="cmp33985C0BCBF7011813AEAF837FBF9AFE" Guid="{6CDB06C6-3DD8-4165-A2BC-538DBD508458}">
                 <File Id="fil238D0FB56F3E34E6FE1542D5662BCE5E" KeyPath="yes" Source="$(var.SourceBinDir)\libpangocairo-1.0-0.dll" />
             </Component>
-            <Component Id="cmp7B03C0AA4D97A2DB967FE9E0A71EA6E6" Guid="{2176407A-D04D-42AB-9E4D-FC3495D44AD6}">
+            <Component Id="cmp7B03C0AA4D97A2DB967FE9E0A71EA6E6" Guid="{5B260E01-8582-4D71-8F5F-783C8C4300E3}">
                 <File Id="fil3F44465F358FD6F4678C93963DB362E8" KeyPath="yes" Source="$(var.SourceBinDir)\libpangoft2-1.0-0.dll" />
             </Component>
-            <Component Id="cmp63FBF3AB48B7F1A750450D501A466E9D" Guid="{F797B72B-5B7C-4DE2-AC76-EE2686EB3281}">
+            <Component Id="cmp63FBF3AB48B7F1A750450D501A466E9D" Guid="{157E7961-C202-40BE-A944-36AA1055EDDB}">
                 <File Id="filCC8DD3597B0E1920E8F41054DB171D32" KeyPath="yes" Source="$(var.SourceBinDir)\libpangowin32-1.0-0.dll" />
             </Component>
-            <Component Id="cmp016F5EBE498BB9D3A6CFD9C30A5C8D3A" Guid="{559BB1DE-A220-4157-ABC3-4B11B5105115}">
+            <Component Id="cmp016F5EBE498BB9D3A6CFD9C30A5C8D3A" Guid="{DABF882D-AF43-4FAA-8C91-2310DD6C2C29}">
                 <File Id="fil67028C7703C0D96F9FB64A61EA06727E" KeyPath="yes" Source="$(var.SourceBinDir)\libpixman-1-0.dll" />
             </Component>
-            <Component Id="cmpD602A1B47A0C3E6C8884F6B60EE4B6FD" Guid="{E3DD854A-96A6-4ECB-939E-1573EAE9EB9C}">
-                <File Id="fil35195BB50411EDD6064BCD1026A6B10F" KeyPath="yes" Source="$(var.SourceBinDir)\libpng15-15.dll" />
+            <Component Id="cmp0C3C8D4C9DF7DFC2472EB7E78B226D85" Guid="{BAAC9248-A523-4FEB-91E4-402D5417F480}">
+                <File Id="fil94B512366AE6FE60D7EE465B7D1CA99A" KeyPath="yes" Source="$(var.SourceBinDir)\libpng16-16.dll" />
             </Component>
-            <Component Id="cmpCF735D20C9B7C4C2EC150FB7E8412F3C" Guid="{90ABF663-0132-4BF0-AAA3-DDEDD48C09E6}">
+            <Component Id="cmpCF735D20C9B7C4C2EC150FB7E8412F3C" Guid="{44A83911-1C91-4438-B652-7A761455E2D8}">
                 <File Id="fil214009D7DF3524D7AF06F8DB9411F176" KeyPath="yes" Source="$(var.SourceBinDir)\librsvg-2-2.dll" />
             </Component>
-            <Component Id="cmpF2C8DF45FBE37D97189BF5C3B1C554AE" Guid="{8CE955A1-87F2-4061-827F-47EB11C7C7D2}">
-                <File Id="fil0DB2B9A80ED86A053DB5E29B679D056D" KeyPath="yes" Source="$(var.SourceBinDir)\libschroedinger-1.0-0.dll" />
+            <Component Id="cmp1F5CE8174A7F5D62577449C7144886AE" Guid="{05CF2289-B6DB-4CDC-8641-FD4C9B9B2CDC}">
+                <File Id="filF14FCA3745A4C9DB5B49662890BB3143" KeyPath="yes" Source="$(var.SourceBinDir)\librtmp-1.dll" />
             </Component>
-            <Component Id="cmpB5AC58D94A5A9ABD6A3564B09BAAB07C" Guid="{F4991315-5166-4E82-8AC1-2284B65BC489}">
+            <Component Id="cmp38C5600EDE099B775F8165E6C1C17361" Guid="{5024D178-38DB-4E8E-9271-9B45298BD483}">
+                <File Id="fil66E0EE691A8321D34D92FBAC47506E71" KeyPath="yes" Source="$(var.SourceBinDir)\libsbc-1.dll" />
+            </Component>
+            <Component Id="cmpB1AD1C9334D5847FD5A20FC9A2AA1DDF" Guid="{259A8B73-184D-40C1-A3BD-6BB94F17E110}">
+                <File Id="fil2F44DCDB109D77D5AF5D43D319D8C75E" KeyPath="yes" Source="$(var.SourceBinDir)\libSoundTouch-1.dll" />
+            </Component>
+            <Component Id="cmpB5AC58D94A5A9ABD6A3564B09BAAB07C" Guid="{CACA6BF2-7EBB-4E5A-99BD-C75E33584D2E}">
                 <File Id="fil84B3A991387B1032F19273A403339714" KeyPath="yes" Source="$(var.SourceBinDir)\libsoup-2.4-1.dll" />
             </Component>
-            <Component Id="cmpC5B46024BC3F9D5D8F8FA3C0D8BC3D1B" Guid="{25291C76-715B-461B-B174-E459E0338B28}">
+            <Component Id="cmp8959238936A38E019BF6F5153646BE65" Guid="{3E2206FD-79C0-4544-8D9E-A5571E78B302}">
+                <File Id="fil38C486AD0EEAA50F161AEE8CF374AD11" KeyPath="yes" Source="$(var.SourceBinDir)\libspandsp-2.dll" />
+            </Component>
+            <Component Id="cmpC5B46024BC3F9D5D8F8FA3C0D8BC3D1B" Guid="{1111B218-05C1-4267-A579-CE28A838B9BD}">
                 <File Id="fil67406D49509DDC434D8BC0E063EDF82A" KeyPath="yes" Source="$(var.SourceBinDir)\libspeex-1.dll" />
             </Component>
-            <Component Id="cmpF9FECD139E634707F54A40E64E04AA63" Guid="{8D51CB55-E7E3-419E-8D1F-5BCADE051B54}">
-                <File Id="fil03074EA0B134D40EFFFE71A4A1998945" KeyPath="yes" Source="$(var.SourceBinDir)\libspeexdsp-1.dll" />
+            <Component Id="cmp868A6793E27085438791BCEBEA367A9D" Guid="{DFCA6F0A-7460-48E5-9C4E-27DD693963A4}">
+                <File Id="filB5B528CEEA15CA277D79A1F5AD787B2B" KeyPath="yes" Source="$(var.SourceBinDir)\libsrtp.dll" />
             </Component>
-            <Component Id="cmpDBA9AD0BB16667AAEBDAA95D1ABBAB07" Guid="{85383B08-2A9F-45DA-9D59-E47ED5A2B8D8}">
+            <Component Id="cmpDBA9AD0BB16667AAEBDAA95D1ABBAB07" Guid="{6186CA52-DAA4-44D3-8AEA-C60D10459A16}">
                 <File Id="fil4583B6D6F110695D6D3CD678D1A790F8" KeyPath="yes" Source="$(var.SourceBinDir)\libstdc++-6.dll" />
             </Component>
-            <Component Id="cmp7759BA7C9ADD792FD44C416D978D8621" Guid="{83DE5CF5-7180-4D6D-BE7B-9D0810B5FB58}">
+            <Component Id="cmp7759BA7C9ADD792FD44C416D978D8621" Guid="{371247EB-03F2-428B-BAC5-6CF15D635DA1}">
                 <File Id="filDD89A37D016077C07C50B30D4D54A555" KeyPath="yes" Source="$(var.SourceBinDir)\libtag.dll" />
             </Component>
-            <Component Id="cmp5E9738977148225D9A0A2AC34151F208" Guid="{225933A0-1192-4409-9ECB-97E439277C22}">
-                <File Id="fil38743868EBB39627FA7F3C42B4CE82F3" KeyPath="yes" Source="$(var.SourceBinDir)\libtag_c.dll" />
+            <Component Id="cmp1A38C5E3011132CFA222C0A76B0E90BE" Guid="{863D6B21-4085-4DE7-A720-235D49083ADB}">
+                <File Id="fil0EE577656CB582F1D9F0EC2BA394B4DA" KeyPath="yes" Source="$(var.SourceBinDir)\libtasn1-6.dll" />
             </Component>
-            <Component Id="cmp95F7E458FD12A4D8CC759F1F11FB5478" Guid="{90461AD0-21A5-4332-B579-DDEB2A391376}">
-                <File Id="filABA32DBCCAEF7980985C849E575A0A2B" KeyPath="yes" Source="$(var.SourceBinDir)\libtasn1-3.dll" />
-            </Component>
-            <Component Id="cmpF08083B09517F8849B58DE4D9ED98553" Guid="{54D2C86E-7807-4916-B9D9-D795DE86E3F5}">
+            <Component Id="cmpF08083B09517F8849B58DE4D9ED98553" Guid="{7558D7D8-BE8C-4259-91F7-1F9BD271061C}">
                 <File Id="filE926E246BC90908D6528990557AB3CAB" KeyPath="yes" Source="$(var.SourceBinDir)\libtheora-0.dll" />
             </Component>
-            <Component Id="cmp155BB6B9F50F3431DFBCE22CA4C7A014" Guid="{10241352-65FD-4589-B7B2-E38741B4A0DC}">
+            <Component Id="cmp155BB6B9F50F3431DFBCE22CA4C7A014" Guid="{22E5ACFB-E6AD-42C4-BE6A-27B81A1B57E9}">
                 <File Id="filA54B3ECE0CD84A6C4FBFE3C2ED54B619" KeyPath="yes" Source="$(var.SourceBinDir)\libtheoradec-1.dll" />
             </Component>
-            <Component Id="cmp08D9B326B39F0EBE3C17D0356B94DC3C" Guid="{C51F4CF4-F278-49FC-AFDE-D21B5B857B1E}">
+            <Component Id="cmp08D9B326B39F0EBE3C17D0356B94DC3C" Guid="{DC44E679-EB95-4D51-91E3-7FBDDFBDA120}">
                 <File Id="fil7A2E98128681237EEE0E878684B0C353" KeyPath="yes" Source="$(var.SourceBinDir)\libtheoraenc-1.dll" />
             </Component>
-            <Component Id="cmp6A5D883C4A79D4231B1CE77DCB86B2D9" Guid="{305431A0-3DBA-4718-8744-DBD2BCF46B32}">
+            <Component Id="cmp6A5D883C4A79D4231B1CE77DCB86B2D9" Guid="{2FF978FD-46F2-48D5-9FAB-90B498A1D745}">
                 <File Id="fil869EE5023B2624CE5BAA6C2FDB026CA2" KeyPath="yes" Source="$(var.SourceBinDir)\libtiff-5.dll" />
             </Component>
-            <Component Id="cmp10298BB81C047C3F46A26649732426DF" Guid="{A573ECB1-0422-491D-AA58-8E7FEB4446CD}">
+            <Component Id="cmp425AECFD46D150AA5BCF5B922B16F6D8" Guid="{A2472B6E-0253-4776-A897-BB590067CEF5}">
+                <File Id="fil5F53761462570A538940861658652682" KeyPath="yes" Source="$(var.SourceBinDir)\libturbojpeg-0.dll" />
+            </Component>
+            <Component Id="cmp10298BB81C047C3F46A26649732426DF" Guid="{35FF4945-9CA7-4AF2-B9C6-2C8FFA9D7EC2}">
                 <File Id="fil30EDF253A35454DC8F5094E3B5B59855" KeyPath="yes" Source="$(var.SourceBinDir)\libvisual-0.4-0.dll" />
             </Component>
-            <Component Id="cmpF24AFD913C0AA6F551B1AE49F2AB72E6" Guid="{5CEFD4D4-6B05-44DF-B3B3-5C00EFB46B48}">
+            <Component Id="cmp4FEE769CC0D2528FF7CFDE6420EF0B90" Guid="{E2E1A3DF-0153-4DCE-9A47-CB5DC48BDCDE}">
+                <File Id="filAB95BF83F6FF0099B5294CE0ED259A23" KeyPath="yes" Source="$(var.SourceBinDir)\libvo-aacenc-0.dll" />
+            </Component>
+            <Component Id="cmpF24AFD913C0AA6F551B1AE49F2AB72E6" Guid="{275893D5-CA3A-455D-B37D-FE94409AA1E0}">
                 <File Id="fil143798DFF5DB553D8F7FEF8BEB85EFB7" KeyPath="yes" Source="$(var.SourceBinDir)\libvorbis-0.dll" />
             </Component>
-            <Component Id="cmp93C788480AF1EC576BFFE1ED9AF0F777" Guid="{63B24C1E-72FD-4A8A-AE57-9E328C453154}">
+            <Component Id="cmp93C788480AF1EC576BFFE1ED9AF0F777" Guid="{EDB1957F-D750-4F66-ACA6-F63AEFC15D70}">
                 <File Id="filB14946D8720F5BD7DB72007766621B6E" KeyPath="yes" Source="$(var.SourceBinDir)\libvorbisenc-2.dll" />
             </Component>
-            <Component Id="cmp8A84A9F742B867AE1206B6F4E784DE74" Guid="{25237600-4D4D-4A69-80B7-E1FBECCE549D}">
+            <Component Id="cmp8A84A9F742B867AE1206B6F4E784DE74" Guid="{E305C9A4-1B03-4520-9C10-AD3DD449E2C1}">
                 <File Id="fil4207DC4E035F7C30B0DDF39394916BD7" KeyPath="yes" Source="$(var.SourceBinDir)\libvorbisfile-3.dll" />
             </Component>
-            <Component Id="cmpD09CC717BC529E633CEBCAEA2C55B63D" Guid="{84DB55B1-47E7-4754-B0EB-F968F6BB26B1}">
+            <Component Id="cmpD09CC717BC529E633CEBCAEA2C55B63D" Guid="{DC269B64-2EB0-49F6-B4A0-419F670CCBC6}">
                 <File Id="filCEB3E72414ABDB99F1ACA25DD7B277A9" KeyPath="yes" Source="$(var.SourceBinDir)\libwavpack-1.dll" />
             </Component>
-            <Component Id="cmpEE176A0D475C6584AB05B6E89E280C25" Guid="{54CF42EF-2FE8-4323-BE86-987016DDAC05}">
+            <Component Id="cmpEE176A0D475C6584AB05B6E89E280C25" Guid="{D15D0D07-7B2A-4156-80A3-1030892B2C79}">
                 <File Id="filB8F29048BA14D1A8D1D79EE9B8FBBC00" KeyPath="yes" Source="$(var.SourceBinDir)\libwinpthread-1.dll" />
             </Component>
-            <Component Id="cmp98CB6BB785C14D57CF74FE81B2A2150E" Guid="{3FB1DD89-2902-4B00-9000-8F37471FD9A0}">
-                <File Id="filCD19658FB07F75D9371C96A4F6685731" KeyPath="yes" Source="$(var.SourceBinDir)\libx264-125.dll" />
+            <Component Id="cmp20F3BCD205E46E73BDCFF53C987F8C11" Guid="{34077DF6-3F93-4A01-9BA8-B2D123C404CE}">
+                <File Id="filD547A8F1001A36235A59FD374F1CF4D5" KeyPath="yes" Source="$(var.SourceBinDir)\libx264-148.dll" />
             </Component>
-            <Component Id="cmp1C3C34AFB29E36A6BF416C1F960EFFD8" Guid="{5FD8ED8A-1954-4304-A044-1EA23A43A726}">
+            <Component Id="cmp1C3C34AFB29E36A6BF416C1F960EFFD8" Guid="{1B81BC97-7FEC-4374-8555-7A898BE521ED}">
                 <File Id="fil4AD53F601C37CDDC1B1D4B240093AEB1" KeyPath="yes" Source="$(var.SourceBinDir)\libxml2-2.dll" />
             </Component>
-            <Component Id="cmpF02E9E6296CA051C32CA52AEBAD671CC" Guid="{111B25FA-9595-4BFD-86B7-6EBD289EAB26}">
+            <Component Id="cmpF02E9E6296CA051C32CA52AEBAD671CC" Guid="{BCE98CE7-6FB6-4BF3-96CA-DFFEFC726265}">
                 <File Id="filEF05858A277DF189C807B1C62EA24FA8" KeyPath="yes" Source="$(var.SourceBinDir)\libz.dll" />
             </Component>
         </DirectoryRef>
-    </Fragment>
-    <Fragment>
-        <ComponentGroup Id="BinFiles">
-            <ComponentRef Id="cmp3190D067C2E1D6B87E52AD761406B02C" />
-            <ComponentRef Id="cmpD0D100A9A0D2A94A734C4140510D6726" />
-            <ComponentRef Id="cmp7F499E197F85D5BACA7C607B0C75B841" />
-            <ComponentRef Id="cmpFFF2A7C8274B755AAC90923B5C61D153" />
-            <ComponentRef Id="cmp73CDDBC6F4EA49200022405F2194D343" />
-            <ComponentRef Id="cmp98923712297228694DCD1960E061B321" />
-            <ComponentRef Id="cmp7FC7C4A09A2305D27DB1361D7A8A6746" />
-            <ComponentRef Id="cmp613800FBEECC1D9158BD8F9506105866" />
-            <ComponentRef Id="cmpF3C9049B726063CF10C16FAA69E5F6E2" />
-            <ComponentRef Id="cmpA389F8B7C152B4FA31AAE30CECAC6C01" />
-            <ComponentRef Id="cmp3FDE7FED87270A44E7779339E3CCC369" />
-            <ComponentRef Id="cmp21696F84C6E2BDD2BE190E50C49F67AA" />
-            <ComponentRef Id="cmp226B31B6F33D3A699E2923A3274AD369" />
-            <ComponentRef Id="cmpAF1B6A0D486C7011C334A2235FE59B2D" />
-            <ComponentRef Id="cmp45EAB897721B03E4D9EA9BE30213D9B0" />
-            <ComponentRef Id="cmp07424058C103E43BC30541DBB4234D8C" />
-            <ComponentRef Id="cmp20A3448A7044E36E37A0D14C1769B40F" />
-            <ComponentRef Id="cmp67BDA6673E181A0E8FB020E947BADA6F" />
-            <ComponentRef Id="cmpF0E698D573C485176A711FEBCCC51C30" />
-            <ComponentRef Id="cmp352E4B15A186FF98794BC0E29980597F" />
-            <ComponentRef Id="cmpB705C9DF5BAA42BFB0AD6BC375E21B5F" />
-            <ComponentRef Id="cmpB58FE5F690B6A29400EA81382B5AB2D2" />
-            <ComponentRef Id="cmpF952024BC7437D7A81FB024DA544A6D2" />
-            <ComponentRef Id="cmp27BD00629A3630515D9187F7AFCBC1EB" />
-            <ComponentRef Id="cmp9B5D8856D93BC0BC99A4F785EF6E3A6D" />
-            <ComponentRef Id="cmp1439BD999719FF9CC1657562A4EB5995" />
-            <ComponentRef Id="cmpA6A5AC84D9C9EFE4DA6F806346E01985" />
-            <ComponentRef Id="cmp219BCFCA16594D058D9E7F5A3D90FAB1" />
-            <ComponentRef Id="cmpFBE8CFA292F49A050B4024E5CF128BF7" />
-            <ComponentRef Id="cmp990638A800AB1ED8B7C681E0A980B751" />
-            <ComponentRef Id="cmpE3767328D583F793E0ABCD11B8F25F98" />
-            <ComponentRef Id="cmp4C40D0A39EDC3D8BDC4BE00224DF14E4" />
-            <ComponentRef Id="cmp48E164AB2DFA0783177180833024C74F" />
-            <ComponentRef Id="cmpE75C1073DC3330EC849FF93E14E476E3" />
-            <ComponentRef Id="cmp3CE9EE6C82DBCC3F91073F15F0CAC47C" />
-            <ComponentRef Id="cmpB4383EE2F7E57C52D8F16263054BACC8" />
-            <ComponentRef Id="cmpC58860F00FE0F7AFE80E07C5B4FAF6C9" />
-            <ComponentRef Id="cmpEDCA058DCC10A9D60059FB845EAE08E7" />
-            <ComponentRef Id="cmpFF383D06FB9A798F710BF3BA1AED12B0" />
-            <ComponentRef Id="cmpAF5107C37C79F9B402E5A5CE79B2B0F6" />
-            <ComponentRef Id="cmp5CFF20C2791CB5AB0695762A5951D823" />
-            <ComponentRef Id="cmp3A0D36E89908C85DD3216E4A3EC4B271" />
-            <ComponentRef Id="cmpB7F13F8BEE95E16CCB1C43D3FE69777F" />
-            <ComponentRef Id="cmpB910267821BA73D2F92AF9D96176CFD6" />
-            <ComponentRef Id="cmp6F3359291AC1E56C6DD7AE6AD7B6DE18" />
-            <ComponentRef Id="cmp7270569352F2076490920AD86B93653A" />
-            <ComponentRef Id="cmp2FE8557CC8C87E29338BECEFAFEA2D9E" />
-            <ComponentRef Id="cmpE9903492C8EE34CFF9A1818F9878780A" />
-            <ComponentRef Id="cmp60CA19FCC779C72CB9870A1D29508BC4" />
-            <ComponentRef Id="cmp7B2EDC464C94E438BE1A5DBBF9B8D8FB" />
-            <ComponentRef Id="cmpB7F35389163E8C55AE0A6F7D27FF2213" />
-            <ComponentRef Id="cmp9BDB0BBDC91BB03C7CCADBC08846FEE7" />
-            <ComponentRef Id="cmpED18EE78E39A2552C0AA645872D9F845" />
-            <ComponentRef Id="cmp09B4396B5B80F5C9308B98893A776597" />
-            <ComponentRef Id="cmp9AFE438D25CA1AAF998FE0F1F51BB0C8" />
-            <ComponentRef Id="cmp91CF7267633F774B30990E84975BDA9E" />
-            <ComponentRef Id="cmp789E31D03135C693A49CF04169DF4709" />
-            <ComponentRef Id="cmpFEC9A2AE85C3AA6D5EC61ABD68D37F3A" />
-            <ComponentRef Id="cmp3884A665FF34992BBA6BEDCA4431E616" />
-            <ComponentRef Id="cmpC0A021592597908F4EAE1A2A8BBB11F5" />
-            <ComponentRef Id="cmp63525BEB8CB28C1B83B942B8315585A2" />
-            <ComponentRef Id="cmpB462A28F9A88D88B5DEBD9B0379BAA9F" />
-            <ComponentRef Id="cmpC97B65029F211ACF36A5FFC20A6CDA2E" />
-            <ComponentRef Id="cmpF9C5B76FEECB3FE826CFA3D45DA755B4" />
-            <ComponentRef Id="cmpDF7E31EEF4F84153B018501E1524FC83" />
-            <ComponentRef Id="cmpF54DF3E28900E5C91C5C168A34E30335" />
-            <ComponentRef Id="cmp52386906140F9A0D553748D4A8801F2B" />
-            <ComponentRef Id="cmp6C4D5070069BCE372EC1FAB1E89102DA" />
-            <ComponentRef Id="cmp1FEF7CE4DC6338F21FB29DFE88FD0F61" />
-            <ComponentRef Id="cmpA43124250FD36E3905A288D40044C694" />
-            <ComponentRef Id="cmpE4C2ACE1509533801CADCAEA8BBEB0E7" />
-            <ComponentRef Id="cmpD276F396A7E18250D3667744EF09C3FB" />
-            <ComponentRef Id="cmp300D0D974A709BB87C87B1E2D76CE0D4" />
-            <ComponentRef Id="cmp69438B8609830D123BDE2511D323EC4D" />
-            <ComponentRef Id="cmp06CAA2BDEE256265410DC6307C64B141" />
-            <ComponentRef Id="cmp93EF99E3F8FA47E1EDF04104ED8D87F9" />
-            <ComponentRef Id="cmp5EBC1EF2C48473941473BB4F701A4D55" />
-            <ComponentRef Id="cmp70D3A63A0AC4CA44EFCB8A2434F28C3B" />
-            <ComponentRef Id="cmp9A1E941019F496ECF821F5308B3CFFD3" />
-            <ComponentRef Id="cmpF4B148BABDC74489372400ED9EAF5D95" />
-            <ComponentRef Id="cmpC06E7D599FD08869FE6EFBB622F219B9" />
-            <ComponentRef Id="cmp59B259C457A5687DB8F2D7349660C469" />
-            <ComponentRef Id="cmpFAED03E104BE4364A5D57CA69D65DF93" />
-            <ComponentRef Id="cmp9596819380AAC30226097C80502689D5" />
-            <ComponentRef Id="cmpEB924EC1A2372FC1B0CB256C86FB20EA" />
-            <ComponentRef Id="cmp33985C0BCBF7011813AEAF837FBF9AFE" />
-            <ComponentRef Id="cmp7B03C0AA4D97A2DB967FE9E0A71EA6E6" />
-            <ComponentRef Id="cmp63FBF3AB48B7F1A750450D501A466E9D" />
-            <ComponentRef Id="cmp016F5EBE498BB9D3A6CFD9C30A5C8D3A" />
-            <ComponentRef Id="cmpD602A1B47A0C3E6C8884F6B60EE4B6FD" />
-            <ComponentRef Id="cmpCF735D20C9B7C4C2EC150FB7E8412F3C" />
-            <ComponentRef Id="cmpF2C8DF45FBE37D97189BF5C3B1C554AE" />
-            <ComponentRef Id="cmpB5AC58D94A5A9ABD6A3564B09BAAB07C" />
-            <ComponentRef Id="cmpC5B46024BC3F9D5D8F8FA3C0D8BC3D1B" />
-            <ComponentRef Id="cmpF9FECD139E634707F54A40E64E04AA63" />
-            <ComponentRef Id="cmpDBA9AD0BB16667AAEBDAA95D1ABBAB07" />
-            <ComponentRef Id="cmp7759BA7C9ADD792FD44C416D978D8621" />
-            <ComponentRef Id="cmp5E9738977148225D9A0A2AC34151F208" />
-            <ComponentRef Id="cmp95F7E458FD12A4D8CC759F1F11FB5478" />
-            <ComponentRef Id="cmpF08083B09517F8849B58DE4D9ED98553" />
-            <ComponentRef Id="cmp155BB6B9F50F3431DFBCE22CA4C7A014" />
-            <ComponentRef Id="cmp08D9B326B39F0EBE3C17D0356B94DC3C" />
-            <ComponentRef Id="cmp6A5D883C4A79D4231B1CE77DCB86B2D9" />
-            <ComponentRef Id="cmp10298BB81C047C3F46A26649732426DF" />
-            <ComponentRef Id="cmpF24AFD913C0AA6F551B1AE49F2AB72E6" />
-            <ComponentRef Id="cmp93C788480AF1EC576BFFE1ED9AF0F777" />
-            <ComponentRef Id="cmp8A84A9F742B867AE1206B6F4E784DE74" />
-            <ComponentRef Id="cmpD09CC717BC529E633CEBCAEA2C55B63D" />
-            <ComponentRef Id="cmpEE176A0D475C6584AB05B6E89E280C25" />
-            <ComponentRef Id="cmp98CB6BB785C14D57CF74FE81B2A2150E" />
-            <ComponentRef Id="cmp1C3C34AFB29E36A6BF416C1F960EFFD8" />
-            <ComponentRef Id="cmpF02E9E6296CA051C32CA52AEBAD671CC" />
-        </ComponentGroup>
     </Fragment>
 </Wix>
