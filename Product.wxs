@@ -15,8 +15,8 @@
     </Condition>
 
     <Feature Id="ProductFeature" Title="Vos Video Dashboard Setup" Level="1">
-<!--      <ComponentGroupRef Id="PluginFiles"/>
-      <ComponentGroupRef Id="BinFiles"/> -->
+      <ComponentGroupRef Id="PluginFiles"/>
+      <ComponentGroupRef Id="BinFiles"/> 
       <ComponentGroupRef Id="ProductComponents" />
       <ComponentRef Id="ApplicationShortcutDesktop"/>
     </Feature>
@@ -32,7 +32,6 @@
       <Custom Action="InstallRtbcService" Before="InstallFinalize">NOT Installed</Custom>
       <Custom Action="UninstallRtbcService" Before="InstallFinalize">Installed</Custom>
     </InstallExecuteSequence>-->
-
   </Product>
 
   <Fragment>
@@ -119,13 +118,13 @@
       <Component Id="PocoFoundation.dll" Guid="35C7A07F-1779-4EEB-A3BC-E2C940B82AE8">
         <File Source="$(env.VOSVIDEO_ROOT)\vosvideoserver\Release\PocoFoundation.dll" KeyPath="yes" />
       </Component>
-      <Component Id="opencv_core2410.dll" Guid="F4F3D490-74A7-4A1B-8B5F-380AC5A9EAF2">
+      <Component Id="opencv_core310.dll" Guid="F4F3D490-74A7-4A1B-8B5F-380AC5A9EAF2">
         <File Source="$(env.VOSVIDEO_ROOT)\vosvideoserver\Release\opencv_core310.dll" KeyPath="yes" />
       </Component>
-      <Component Id="opencv_highgui2410.dll" Guid="B7E9E4BE-4B64-4A17-AA60-E69408255EF5">
+      <Component Id="opencv_highgui310.dll" Guid="B7E9E4BE-4B64-4A17-AA60-E69408255EF5">
         <File Source="$(env.VOSVIDEO_ROOT)\vosvideoserver\Release\opencv_highgui310.dll" KeyPath="yes" />
       </Component>
-      <Component Id="cpprest120_2_4.dll" Guid="19051f46-e688-4f0c-a539-1c2a7b3c8b39">
+      <Component Id="cpprest140_2_8.dll" Guid="19051f46-e688-4f0c-a539-1c2a7b3c8b39">
         <File Source="$(env.VOSVIDEO_ROOT)\vosvideoserver\Release\cpprest140_2_8.dll" KeyPath="yes" />
       </Component>
     </ComponentGroup>
