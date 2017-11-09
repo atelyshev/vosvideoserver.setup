@@ -36,15 +36,7 @@
   </ItemGroup>
   <Import Project="$(WixTargetsPath)" />
   <PropertyGroup>
-    <PreBuildEvent>mkdir $(ProjectDir)temp
-mkdir $(ProjectDir)temp\plugins
-mkdir $(ProjectDir)temp\bin
-del /Q $(ProjectDir)temp\plugins\%2a
-del /Q $(ProjectDir)temp\bin\%2a
-xcopy $(GSTREAMER_1_0_ROOT_X86)\lib\gstreamer-1.0\%2a.dll  $(ProjectDir)temp\plugins
-xcopy $(GSTREAMER_1_0_ROOT_X86)\bin\%2a.dll  $(ProjectDir)temp\bin
-"C:\Program Files (x86)\WiX Toolset v3.11\bin\heat.exe" dir "$(ProjectDir)\temp\plugins" –cg PluginFiles -gg -scom -sreg -sfrag -srd -dr INSTALLPLUGINBINFOLDER -var var.SourcePluginDir -out "$(ProjectDir)\PluginFragment.wxs"
-"C:\Program Files (x86)\WiX Toolset v3.11\bin\heat.exe" dir "$(ProjectDir)\temp\bin" –cg BinFiles -gg -scom -sreg -sfrag -srd -dr INSTALLBINFOLDER -var var.SourceBinDir -out "$(ProjectDir)\BinFragment.wxs"</PreBuildEvent>
+    <PreBuildEvent>$(ProjectDir)prebuild.bat $(ProjectDir)</PreBuildEvent>
   </PropertyGroup>
   <!--
 	To modify your build process, add your task inside one of the targets below and uncomment it.
