@@ -2,517 +2,517 @@
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
     <Fragment>
         <DirectoryRef Id="INSTALLPLUGINBINFOLDER">
-            <Component Id="cmp8CD1BDE7492ED6D667BD027CE086100A" Guid="{A312A0FB-4054-48B8-85C3-4A2C43609AD9}">
+            <Component Id="cmp8CD1BDE7492ED6D667BD027CE086100A" Guid="{2BC33CEB-AFF9-4488-8C34-3031D7A43DE0}">
                 <File Id="fil2F13826EE2CC8837467683C69B44D4F2" KeyPath="yes" Source="$(var.SourcePluginDir)\libgsta52dec.dll" />
             </Component>
-            <Component Id="cmp2C4A72518DD26E83498E6CB0EDF0541C" Guid="{05C1D109-57C6-4DC1-8D00-33183D1080C0}">
+            <Component Id="cmp2C4A72518DD26E83498E6CB0EDF0541C" Guid="{F905138E-CDAC-426D-9DF2-F97EC40D80E2}">
                 <File Id="filBE293B4B395BFE127CDABF273831B17C" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstaccurip.dll" />
             </Component>
-            <Component Id="cmp49610AD72B8DF3D18F709298B4ED9928" Guid="{99E54041-5FA8-442A-91A2-84E772DDCFFB}">
+            <Component Id="cmp49610AD72B8DF3D18F709298B4ED9928" Guid="{778B184E-9129-423B-8837-30BB257FF775}">
                 <File Id="filDC1042FC6BA7491CCE84CF4B9FEFCEF5" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstadder.dll" />
             </Component>
-            <Component Id="cmp8E752118C2658826892857F0CB2F7650" Guid="{DB13616E-1E7B-4EA7-A09E-38DA9DC99336}">
+            <Component Id="cmp8E752118C2658826892857F0CB2F7650" Guid="{0C907D1B-B63D-4458-80E8-224DAB29FFF2}">
                 <File Id="filB03EA88EBCAD3FF87B79296E56037526" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstadpcmdec.dll" />
             </Component>
-            <Component Id="cmpE3B176D857F2015F2C9036363678C5E2" Guid="{45BD32BE-8A1D-45B5-8885-CED3A2914FB5}">
+            <Component Id="cmpE3B176D857F2015F2C9036363678C5E2" Guid="{5498C69D-00D2-4795-A514-66A9A49A212E}">
                 <File Id="filEDDEC33FE13EA567904B12667E1C659A" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstadpcmenc.dll" />
             </Component>
-            <Component Id="cmp016F826B8A572ACD61FBCB87C7BF90A0" Guid="{2C248220-25EB-430F-B76B-A5240BB4F03E}">
+            <Component Id="cmp016F826B8A572ACD61FBCB87C7BF90A0" Guid="{346A8454-5048-4173-B196-46FC9F0AF182}">
                 <File Id="filC06AAC09CF63DEEEB1D78AC46E462573" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstaiff.dll" />
             </Component>
-            <Component Id="cmp08FA947DCD90128FB5C59DCB0DAE955C" Guid="{C341D72C-F603-4640-A08D-474BF3FED391}">
+            <Component Id="cmp08FA947DCD90128FB5C59DCB0DAE955C" Guid="{F59C0ED9-506D-4B37-9B49-6A28C1BAD64A}">
                 <File Id="fil480F010032B5AA911EF7D4A2C46FC2C1" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstalaw.dll" />
             </Component>
-            <Component Id="cmpE9F7B495A60E327F669C53E33B381202" Guid="{7DB9A397-6593-4F17-8318-567D6916CF82}">
+            <Component Id="cmpE9F7B495A60E327F669C53E33B381202" Guid="{A9DD032D-718D-4DEC-8597-B169A6790948}">
                 <File Id="filC52CAA9EF289166C86BDDD8164BF2D70" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstalpha.dll" />
             </Component>
-            <Component Id="cmp6394929071824FAE710EC669100644B6" Guid="{E3524B6A-627C-4185-9E83-D1E0A81DD737}">
+            <Component Id="cmp6394929071824FAE710EC669100644B6" Guid="{788EE839-EA54-4639-B9B0-A85075FFA123}">
                 <File Id="fil9238BCC9531C8CE5F1CB4C9D23CA8256" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstalphacolor.dll" />
             </Component>
-            <Component Id="cmpAAB34AEA30214595B6FAD8CBE6B0573A" Guid="{0E43C8B6-5DCB-4FB8-9519-1473DC73FCC8}">
+            <Component Id="cmpAAB34AEA30214595B6FAD8CBE6B0573A" Guid="{89C4D48C-A28E-4426-913F-27C2E844F9B9}">
                 <File Id="fil5C8C7FB98AEC89560E9120B7077A01CD" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstamrnb.dll" />
             </Component>
-            <Component Id="cmp51E0CDFD100AC902428FA5CEF8A2C6B8" Guid="{54D2402D-7CE6-467D-A35F-56FAB7DA3691}">
+            <Component Id="cmp51E0CDFD100AC902428FA5CEF8A2C6B8" Guid="{B793D2F4-9F01-469B-BE63-CEB75A88E941}">
                 <File Id="fil4C333AA131D710C8AA7CFEEAACD5B68D" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstamrwbdec.dll" />
             </Component>
-            <Component Id="cmp0D72CCAA9BCC5E9536CD57CCBB9F7238" Guid="{623ECAC5-34EB-4EB6-827B-39AB2F18C39A}">
+            <Component Id="cmp0D72CCAA9BCC5E9536CD57CCBB9F7238" Guid="{2F6F49B7-680C-43CB-BCA1-84CB7B77F19F}">
                 <File Id="fil29F3B938650C7A878B6C4A58E362639B" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstapetag.dll" />
             </Component>
-            <Component Id="cmp58A1DB2AA6D57E89200DBDB6714C4099" Guid="{987FAC02-4BDD-4CE0-94E0-290B832C0BEC}">
+            <Component Id="cmp58A1DB2AA6D57E89200DBDB6714C4099" Guid="{263467B6-B351-4F20-AD72-7FF296F7C886}">
                 <File Id="filB6C0946C02BA9808F09E1B20025E8E2A" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstapp.dll" />
             </Component>
-            <Component Id="cmp79A45FABAA9B218AEE4B963DEF7A56A0" Guid="{09491E49-44C1-48FB-B16B-E408D814AC2C}">
+            <Component Id="cmp79A45FABAA9B218AEE4B963DEF7A56A0" Guid="{12718C98-F11D-4EAD-B1BE-950DC49F0575}">
                 <File Id="fil0F6BC8B48FFBF43E9FB9B563F6D89071" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstasf.dll" />
             </Component>
-            <Component Id="cmpF06BCC8BC5CF14A54D401E0329C14AF8" Guid="{F991732E-ED16-48D0-AAC7-6DC8161ED38F}">
+            <Component Id="cmpF06BCC8BC5CF14A54D401E0329C14AF8" Guid="{F3DB35A5-12E1-485D-88E7-CEC43A4C512F}">
                 <File Id="fil9F0C69235458EE660B44878692CDFFA3" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstasfmux.dll" />
             </Component>
-            <Component Id="cmp740B7E6C4868235B29EED79007161CDD" Guid="{F898D039-D770-4881-85FC-A273B7D80D11}">
+            <Component Id="cmp740B7E6C4868235B29EED79007161CDD" Guid="{1AD52540-C201-46F7-B392-032ACA3A2262}">
                 <File Id="filB4BDDC0001FE2F4166895EC7F50F2C93" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstassrender.dll" />
             </Component>
-            <Component Id="cmpA7D32FD6B37DD55235833E94F204E83B" Guid="{3D5758C4-F726-4F63-9246-747476984ECC}">
+            <Component Id="cmpA7D32FD6B37DD55235833E94F204E83B" Guid="{AD04FC3C-2E8F-4A64-A849-84EEED774D70}">
                 <File Id="fil2669B9826A7C672FF34279A1E25DA114" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstaudioconvert.dll" />
             </Component>
-            <Component Id="cmp846BFC739EC626B06B9B38410761C89E" Guid="{77725648-95C1-42DB-93D8-25F5268870B7}">
+            <Component Id="cmp846BFC739EC626B06B9B38410761C89E" Guid="{D7C41A8D-9BA0-427E-BDBF-1D2A2C6942F6}">
                 <File Id="fil19BD98DAF97C299CB47AEF8ECD4AB430" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstaudiofx.dll" />
             </Component>
-            <Component Id="cmp4C5BFAB8630053FAA5EE735189E46C1E" Guid="{4F7DAE29-0402-4804-B57A-6B047E809FE9}">
+            <Component Id="cmp4C5BFAB8630053FAA5EE735189E46C1E" Guid="{67B120B5-9F11-4025-B3B6-A87A320CCE98}">
                 <File Id="filF2D8C5FB57D4F34204EC7603812B1DB6" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstaudiofxbad.dll" />
             </Component>
-            <Component Id="cmp325F8D21B64E8D4EE4AF71E9BA09E17E" Guid="{89C9A9F6-E2D5-4BF1-A5E1-FF846FFABC20}">
+            <Component Id="cmp325F8D21B64E8D4EE4AF71E9BA09E17E" Guid="{3211A529-A1B8-40FE-B81F-E17C42FFF1A5}">
                 <File Id="fil66548D94F49EB8614A07F36F0A77BF10" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstaudiomixer.dll" />
             </Component>
-            <Component Id="cmp20BEAA0926895B314E6ED4E7EC47C30C" Guid="{9DA7E28C-09CD-40DF-AC41-C268715598D9}">
+            <Component Id="cmp20BEAA0926895B314E6ED4E7EC47C30C" Guid="{8B4F561D-FD1E-44C6-9BE7-858CB2F5D65C}">
                 <File Id="fil7779BC6CB6CAF243476E4BC8ADC44EE1" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstaudioparsers.dll" />
             </Component>
-            <Component Id="cmp8B28834E57840D9456515CB0C0F605A6" Guid="{C78F5041-40B9-4015-A10E-4A72FC002ECB}">
+            <Component Id="cmp8B28834E57840D9456515CB0C0F605A6" Guid="{50B6F05A-A7DB-4835-B00B-6EB2D10330A4}">
                 <File Id="fil3B53D55A2E0838597F8EA24AA43EAC32" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstaudiorate.dll" />
             </Component>
-            <Component Id="cmp098BB22FBBD78CFD258C4886E9EE6425" Guid="{B89385A7-ADEE-4197-95F2-AC75C80F4267}">
+            <Component Id="cmp098BB22FBBD78CFD258C4886E9EE6425" Guid="{5DDAAB57-3EB0-42E4-9210-6425346A2A83}">
                 <File Id="fil4694E71FC9ED93E7A0FC2BDBB426B68F" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstaudioresample.dll" />
             </Component>
-            <Component Id="cmp4018E59ED7C1B320C11AAD1A58FECC58" Guid="{2F5F3C2C-84F5-4220-93C9-2A427311F64E}">
+            <Component Id="cmp4018E59ED7C1B320C11AAD1A58FECC58" Guid="{5049365C-C078-4A04-A81B-3567C4354084}">
                 <File Id="fil1636052984025C7F58E4E1538E13559B" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstaudiotestsrc.dll" />
             </Component>
-            <Component Id="cmpB96C3B7E8AC2FE388FC18331684A84E1" Guid="{D1EF72C7-5F9F-4D30-BA67-F714E0473DF1}">
+            <Component Id="cmpB96C3B7E8AC2FE388FC18331684A84E1" Guid="{646108CE-9D2C-4778-91C1-3590A705C472}">
                 <File Id="filD8E5D2B0EF6F805BB4FB02B27DF04500" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstaudiovisualizers.dll" />
             </Component>
-            <Component Id="cmp0A516860007D7F526519BB8019757899" Guid="{4CE019B4-985A-4320-B7E2-4CFB2D1A5F9F}">
+            <Component Id="cmp0A516860007D7F526519BB8019757899" Guid="{231DFE26-8AB7-41FD-8E35-F0B5D68FD783}">
                 <File Id="fil1A013EB8F32EBC63B4CE977A8817CB97" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstauparse.dll" />
             </Component>
-            <Component Id="cmp521C19A0087C924F6A9CE13FC4386464" Guid="{3B425DED-54A5-4498-8871-F1AB510924F1}">
+            <Component Id="cmp521C19A0087C924F6A9CE13FC4386464" Guid="{A1E07DF5-09A8-4376-B534-236F1D68F1DC}">
                 <File Id="fil44D67C6B2A9503517E2CA623CF23BD65" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstautoconvert.dll" />
             </Component>
-            <Component Id="cmp8D4691BFBC9EE9683929EFCC1DE8FB3A" Guid="{9712D831-08AA-4F1B-9E70-FF9EBEFF5E9F}">
+            <Component Id="cmp8D4691BFBC9EE9683929EFCC1DE8FB3A" Guid="{BBD1DAF6-8DCB-419C-A2D9-DA4E68F90531}">
                 <File Id="fil6FA1B5150D6EBCF90730BC8121805B77" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstautodetect.dll" />
             </Component>
-            <Component Id="cmpC497EC40C3211FC8D10544E328026C3E" Guid="{159C069A-0151-405E-AF09-8CF2A821BFEF}">
+            <Component Id="cmpC497EC40C3211FC8D10544E328026C3E" Guid="{E87C179A-A89D-4197-A30C-B51F52287BA1}">
                 <File Id="fil25A592219EADD4F3BDEE3D86A747AD41" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstavi.dll" />
             </Component>
-            <Component Id="cmpAA970DA25B75F732C448E78CF8A685DE" Guid="{AEAA123F-C83D-474C-87F6-004D215AD827}">
+            <Component Id="cmpAA970DA25B75F732C448E78CF8A685DE" Guid="{AFE84561-31C4-4F25-B849-84823303D084}">
                 <File Id="filDFAC775B59B1A63199D34D35DEC6460F" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstbayer.dll" />
             </Component>
-            <Component Id="cmp54A9F89F9E9C17E804D121E0DCCFF979" Guid="{ED9C6856-D160-4149-8688-E26B224B1F6F}">
+            <Component Id="cmp54A9F89F9E9C17E804D121E0DCCFF979" Guid="{A073B9F2-8DF3-45E7-9539-2CD1AD42CF05}">
                 <File Id="filE9F9E50CC47AC1D74A47552B5D3A8342" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstcairo.dll" />
             </Component>
-            <Component Id="cmpDC58DC68C00002FC3163045D228406C2" Guid="{7783DF97-EDB6-4A35-B507-C25AD07AB2D2}">
+            <Component Id="cmpDC58DC68C00002FC3163045D228406C2" Guid="{035E69E4-6AD7-439E-9068-3BB59A35984E}">
                 <File Id="fil22F564F51089F93288FD659035B64768" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstcamerabin.dll" />
             </Component>
-            <Component Id="cmp8B4E763CC4BEE626E6A05E146B7D9208" Guid="{C27539CB-6882-4FAF-9C9F-4D0DDE8EB96A}">
+            <Component Id="cmp8B4E763CC4BEE626E6A05E146B7D9208" Guid="{F277FFF7-7829-47C5-B88F-FB1395CB4034}">
                 <File Id="fil66389EEE414A53ACD6E7881B3FF1665F" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstcoloreffects.dll" />
             </Component>
-            <Component Id="cmp90BB648D54CFF50723EB7EE6B2AA89FA" Guid="{5E0A16C9-EB58-4327-9E76-136C3C3E9735}">
+            <Component Id="cmp90BB648D54CFF50723EB7EE6B2AA89FA" Guid="{EDEE3632-BF05-46B8-BB09-B9CADD8D9E04}">
                 <File Id="fil4AF61156A8DF893556B17301B99B4002" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstcompositor.dll" />
             </Component>
-            <Component Id="cmpA0897BFA96C056EF37330E622D72B4D6" Guid="{2C75BF38-CF0A-4EE6-8072-C898E36990F4}">
+            <Component Id="cmpA0897BFA96C056EF37330E622D72B4D6" Guid="{774E805D-3322-4F47-B9F4-DBE2DA0BA231}">
                 <File Id="fil8306BA4091AC5E747FC0696B3947A8C6" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstcoreelements.dll" />
             </Component>
-            <Component Id="cmp4C6641724339BBB8D594095661D60065" Guid="{D0831A50-6874-4BF5-B707-0B7E4A6BFBE3}">
+            <Component Id="cmp4C6641724339BBB8D594095661D60065" Guid="{580F1047-D309-4369-9D03-8010F745123D}">
                 <File Id="filFFC4B9E8D54D12B330F567088A1D3E3F" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstcoretracers.dll" />
             </Component>
-            <Component Id="cmp8B568D0FB788B57EE801531CD0998996" Guid="{E5C7EFB0-0ACB-4D51-802B-FDE13849C363}">
+            <Component Id="cmp8B568D0FB788B57EE801531CD0998996" Guid="{24112113-2AF8-4053-8FC1-0F1DA4F3E9EE}">
                 <File Id="fil0743A01830119AB48CF5E76C7931752E" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstcutter.dll" />
             </Component>
-            <Component Id="cmpEDAFFA594B0A7DACAEB3B6BAD5BDB54C" Guid="{E8E8A027-70BA-492A-AAA9-F3590814E05E}">
+            <Component Id="cmpEDAFFA594B0A7DACAEB3B6BAD5BDB54C" Guid="{4CE6F457-6688-4C36-ACD1-FE6A99D8F887}">
                 <File Id="filD28CBF78A0270BBFE7FE02580F49CE43" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstd3dvideosink.dll" />
             </Component>
-            <Component Id="cmpE611D12450402CADCD97854615736C6B" Guid="{55644099-EBD7-4729-AF39-CEACF59CF513}">
+            <Component Id="cmpE611D12450402CADCD97854615736C6B" Guid="{917C462B-51C4-47D5-85E0-934EEB0471CE}">
                 <File Id="filA1A17A23FE47A4200EFB5E43D650A223" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstdashdemux.dll" />
             </Component>
-            <Component Id="cmp2C54EE171240F1F07124EBB0F7129142" Guid="{F55B7F74-FFC4-4AFE-BF1C-201446AD455D}">
+            <Component Id="cmp2C54EE171240F1F07124EBB0F7129142" Guid="{1A5B4F40-9507-4B6C-ADC1-FD9DA9C98E72}">
                 <File Id="filBEE330E06C107CF6F4257C9ACACB9B48" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstdebug.dll" />
             </Component>
-            <Component Id="cmpAA4B1270ADF5A855BE24FDA49EA54D0C" Guid="{8E6138E4-E959-4625-90DD-A29B3837DCB8}">
+            <Component Id="cmpAA4B1270ADF5A855BE24FDA49EA54D0C" Guid="{5C18B8E4-BB6E-4196-BBD5-903789219B62}">
                 <File Id="filD4A91933D34549C5B2B9640F7E1E87A7" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstdebugutilsbad.dll" />
             </Component>
-            <Component Id="cmp3CD9D07A5C576E74B9EA89EE9A175955" Guid="{0C0E1416-3494-4A03-AD6E-C39DF1F62C2B}">
+            <Component Id="cmp3CD9D07A5C576E74B9EA89EE9A175955" Guid="{AF66D770-6F47-454C-AD82-37B665D4E033}">
                 <File Id="filB058B36367C9261406EEC320EAF7C0CC" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstdeinterlace.dll" />
             </Component>
-            <Component Id="cmp2FDA436AB220AAEFDE22E418C79265E7" Guid="{E928E991-C9F8-4682-9FC0-C18D3201857E}">
+            <Component Id="cmp2FDA436AB220AAEFDE22E418C79265E7" Guid="{A3E329F7-BEDA-4171-9A64-B9B8736B9E9F}">
                 <File Id="fil7DB225689E03A124273D3FF70A02713F" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstdirectsoundsink.dll" />
             </Component>
-            <Component Id="cmp22B029369A8B91C39CE307674DEBE3FE" Guid="{B8CA2644-2F5B-4DAF-8A6A-CCEF63ACC95F}">
+            <Component Id="cmp22B029369A8B91C39CE307674DEBE3FE" Guid="{2B16F981-7408-420B-B7A2-87433CB031E4}">
                 <File Id="fil40484B73E5877F72F694E89A3BDE8312" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstdirectsoundsrc.dll" />
             </Component>
-            <Component Id="cmp1D22ED52E90B6E9F744976ED9C9BC4F3" Guid="{37C8EBD7-70E3-49AD-B3A1-44D671B50E38}">
+            <Component Id="cmp1D22ED52E90B6E9F744976ED9C9BC4F3" Guid="{ACE0EF8E-436B-463D-A39B-EF91B8E12F39}">
                 <File Id="fil017EA2527AEE0D206DC85029DF4DE18E" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstdtmf.dll" />
             </Component>
-            <Component Id="cmp6EC73B0327B160D51DCEAD45BD93345A" Guid="{6B3BE8A5-45CE-44F8-8B5C-04B2CBEE8AF0}">
+            <Component Id="cmp6EC73B0327B160D51DCEAD45BD93345A" Guid="{7C6B1852-19BC-46BC-A434-124430424DB6}">
                 <File Id="fil1EECA068BFF539790016AA5C7C06DD99" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstdtsdec.dll" />
             </Component>
-            <Component Id="cmpB8629853B638B5A3750171C278A50E27" Guid="{69A33E1E-8ABA-49DB-87FC-4991AE8C8E7F}">
+            <Component Id="cmpB8629853B638B5A3750171C278A50E27" Guid="{3E1DFF26-8416-4244-BA35-541705B7BE04}">
                 <File Id="fil2E5A08098EBAC52B1D49B81C5F6DF3E8" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstdv.dll" />
             </Component>
-            <Component Id="cmp3D172F0DB09EA925B01401001EBBEA58" Guid="{2A2A6680-D19D-47BA-8CA3-4B31FA703680}">
+            <Component Id="cmp3D172F0DB09EA925B01401001EBBEA58" Guid="{FA1CA3F4-BAFD-4963-BC7C-68788655CE62}">
                 <File Id="filCC09FA7D4DBF4212040DBDDA46560FD1" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstdvbsuboverlay.dll" />
             </Component>
-            <Component Id="cmp3713FD953D28C9FA8FC546CD4BEDF225" Guid="{E55D2A18-8A53-4BB4-96F5-5D427817EDBF}">
+            <Component Id="cmp3713FD953D28C9FA8FC546CD4BEDF225" Guid="{C66078C9-59E4-4D7D-8542-6874EDA89840}">
                 <File Id="fil8F4B350B9FEA6B0F21270E1365DC30E3" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstdvdlpcmdec.dll" />
             </Component>
-            <Component Id="cmpCF8EFF241B26B25E062B1F0C4AB0E913" Guid="{A2D6AB41-8278-41BD-B928-8FA1ACECB3C8}">
+            <Component Id="cmpCF8EFF241B26B25E062B1F0C4AB0E913" Guid="{2DABB6A3-4AC8-4E50-BC5D-19D8E3C04941}">
                 <File Id="fil6671F65683D99E0AEE584645B2039CF6" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstdvdread.dll" />
             </Component>
-            <Component Id="cmpE268F07D4653326AEDDA0775C3E5EEA5" Guid="{2DF461E7-0FD1-48F2-A276-5DD78B9EF675}">
+            <Component Id="cmpE268F07D4653326AEDDA0775C3E5EEA5" Guid="{A8510B63-218E-482F-A444-C0BF39595589}">
                 <File Id="fil28D9D904355A6D7322D83840581C5075" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstdvdspu.dll" />
             </Component>
-            <Component Id="cmp83FF5EC3BAED5E20303C1671A36989B9" Guid="{F272BF0E-A3F4-4055-A6A3-5E868AAFD35C}">
+            <Component Id="cmp83FF5EC3BAED5E20303C1671A36989B9" Guid="{E96F82E8-03C5-40A1-8421-BD8B4CE4980B}">
                 <File Id="fil42E8B87869317313DEE2C216B5BAF014" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstdvdsub.dll" />
             </Component>
-            <Component Id="cmp17036F30F9252D0D5FF62AB2871F8EBD" Guid="{C49490D3-B001-4345-B5C2-EF2F459B04E6}">
+            <Component Id="cmp17036F30F9252D0D5FF62AB2871F8EBD" Guid="{FE1AE7A0-F959-435D-9DB7-1B8A8DBF13C8}">
                 <File Id="filA511DA183F87D2DEF448495CF337DBD8" KeyPath="yes" Source="$(var.SourcePluginDir)\libgsteffectv.dll" />
             </Component>
-            <Component Id="cmp9223BC2F517CF47ADBEC4C83CD873178" Guid="{5828AB41-3E46-4F07-93F0-2B7013F380B2}">
+            <Component Id="cmp9223BC2F517CF47ADBEC4C83CD873178" Guid="{EEAD71AB-C54A-42D0-BBEF-9733EB9CA144}">
                 <File Id="fil374CD9C37EB5D4B870398ED9E8C6EDB4" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstencoding.dll" />
             </Component>
-            <Component Id="cmp87B8FD74A53469CD1FEA1DA3EEF5FA68" Guid="{C18BC971-1915-4EAE-9098-C0FAB124C9B2}">
+            <Component Id="cmp87B8FD74A53469CD1FEA1DA3EEF5FA68" Guid="{89F7D9DC-DAD4-4804-8244-607CEFA29367}">
                 <File Id="fil89F007E978DB82FF91DF462062298C06" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstequalizer.dll" />
             </Component>
-            <Component Id="cmp20FBFD01BD9AE974D02DC0566E62497D" Guid="{ED99E758-F530-4E39-8FE0-8DF9000034DB}">
+            <Component Id="cmp20FBFD01BD9AE974D02DC0566E62497D" Guid="{B4A8B104-5C1C-4100-9CAD-CF9E73235077}">
                 <File Id="filA48FE2DC7752237F96D89FFC062BD187" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstfaad.dll" />
             </Component>
-            <Component Id="cmp69D02720CA5DCBC29C3198716E437B43" Guid="{165B623A-3AFC-480F-B1B6-4A434A858936}">
+            <Component Id="cmp69D02720CA5DCBC29C3198716E437B43" Guid="{64AFBCA7-5690-4F62-A374-35ADB0B92278}">
                 <File Id="filC6650F1D156862FA23133D99AF40C31C" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstfieldanalysis.dll" />
             </Component>
-            <Component Id="cmpA1C8E8906B72A84EDF83A363221D1CA2" Guid="{77431A18-4928-423D-8A2F-94A020C9E08C}">
+            <Component Id="cmpA1C8E8906B72A84EDF83A363221D1CA2" Guid="{662E8E89-2F42-4FA5-80A3-F899BA3C951D}">
                 <File Id="fil1AE51F87E5A168B0E728D92022ED4829" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstflac.dll" />
             </Component>
-            <Component Id="cmpB52CF607739407B32285889E38397D88" Guid="{22D70799-5B2C-44C5-9C7F-437ADF14C705}">
+            <Component Id="cmpB52CF607739407B32285889E38397D88" Guid="{B822389D-092F-4FCC-929B-350EC0020F74}">
                 <File Id="filE8C98B8BDBC3BE32766FBA2B7304B62E" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstflv.dll" />
             </Component>
-            <Component Id="cmp4553EDE56A04CA1522DC2CD3D6BAEF8D" Guid="{D3FC841B-2F8D-4A2A-8B92-EF43FC1D2A6F}">
+            <Component Id="cmp4553EDE56A04CA1522DC2CD3D6BAEF8D" Guid="{6BC1464D-A4A6-4808-9B3B-46FB84D0956E}">
                 <File Id="filE78CB716454F65A9CD9426F1B961728C" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstflxdec.dll" />
             </Component>
-            <Component Id="cmpAEC5034D99F7C21F6C3ADE3742273A19" Guid="{5F05AFBE-B3C1-4B91-AB13-C3514FBA3764}">
+            <Component Id="cmpAEC5034D99F7C21F6C3ADE3742273A19" Guid="{44B34455-169E-4FE7-85C1-BC53E1A0AE9D}">
                 <File Id="filE1211FE3B374AE501BAE8FD654F55362" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstfreeverb.dll" />
             </Component>
-            <Component Id="cmp55CB47FD3C8E23ACA700495661B3D0E3" Guid="{BF95BD18-6FD5-4C9E-8791-97B606C4763B}">
+            <Component Id="cmp55CB47FD3C8E23ACA700495661B3D0E3" Guid="{217B60E7-64C8-4FD9-B6AF-E2FEF032FF60}">
                 <File Id="fil5A8C61233ED51D8E993BBE302EA2D510" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstfrei0r.dll" />
             </Component>
-            <Component Id="cmpAF7238FA2CDDDF21A4ADE17919082990" Guid="{C43CF848-B9CD-4BD8-BCD6-25B6FFC09870}">
+            <Component Id="cmpAF7238FA2CDDDF21A4ADE17919082990" Guid="{05E6DD91-C6AA-4D54-A9A4-F68561BA3D90}">
                 <File Id="fil76DC702A532D0454A31D6656B88E5A77" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstgaudieffects.dll" />
             </Component>
-            <Component Id="cmpC5EE3AA4FD9B9657E6579B7F5D664C1F" Guid="{A9C2F578-E5E5-4901-954B-E21BE21EA69A}">
+            <Component Id="cmpC5EE3AA4FD9B9657E6579B7F5D664C1F" Guid="{A0181F7C-528D-4461-955D-ABE01876322F}">
                 <File Id="filC14FAEB40C3C93ED95F89E57CA0223F2" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstgdkpixbuf.dll" />
             </Component>
-            <Component Id="cmp170C8F90FE465698BA2A96F0FC0B4126" Guid="{08347324-5801-42B5-91B8-5F3BA13B1A9E}">
+            <Component Id="cmp170C8F90FE465698BA2A96F0FC0B4126" Guid="{50FC7FF8-B933-418C-8266-6CA7A6CD57FB}">
                 <File Id="fil77376C6D0A6ACE605D03CE89816B87FC" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstgdp.dll" />
             </Component>
-            <Component Id="cmp74F7E446FE086B9F9775B4706CFC2AA6" Guid="{925B985C-F6E0-4CC2-A50E-086C0BA26A11}">
+            <Component Id="cmp74F7E446FE086B9F9775B4706CFC2AA6" Guid="{51854AC1-A599-43CF-9754-931101B73BC6}">
                 <File Id="filC2EE0B1C47714A69B582515CDA0585D6" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstgeometrictransform.dll" />
             </Component>
-            <Component Id="cmp17DE8A1F008D73BA0E6D887AE1C6BA99" Guid="{129A645E-032E-42F0-B3AF-9520FBE27154}">
+            <Component Id="cmp17DE8A1F008D73BA0E6D887AE1C6BA99" Guid="{9CE4415F-533F-4C20-BA17-B2411F7BCF5A}">
                 <File Id="filABEBDB920C948ED5FBEC40D6E34408DE" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstgio.dll" />
             </Component>
-            <Component Id="cmpBEDA76DA7BCC3227DD2AD0854DB84229" Guid="{959A80E9-CC1B-4F0F-8E9B-2A2A1C56FAB0}">
+            <Component Id="cmpBEDA76DA7BCC3227DD2AD0854DB84229" Guid="{A077253A-C83E-4847-BA22-C674E8DFCE4F}">
                 <File Id="fil5A426E715A769B2F11B7E43D24354276" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstgoom.dll" />
             </Component>
-            <Component Id="cmp84C92EB785F4483564AFC87949DB185E" Guid="{6861A804-F65A-4424-83FC-7C85C05BC1A3}">
+            <Component Id="cmp84C92EB785F4483564AFC87949DB185E" Guid="{7844351F-3F0F-464A-B95C-EF1861608901}">
                 <File Id="filF25E5086DAA20C2AC9B66DE6E363E305" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstgoom2k1.dll" />
             </Component>
-            <Component Id="cmp38CF76BA41B35D039EF6F20B0BA276A1" Guid="{B9E400D6-E899-4639-80C4-BF91DBEA9F11}">
+            <Component Id="cmp38CF76BA41B35D039EF6F20B0BA276A1" Guid="{659A6F15-E574-4934-89CF-EAD8194E0C02}">
                 <File Id="fil9B96D5BF33FD3CABD50770C6AFED5D22" KeyPath="yes" Source="$(var.SourcePluginDir)\libgsthls.dll" />
             </Component>
-            <Component Id="cmp263CBB032086612C1D2C5E235229FBA5" Guid="{DED16165-9856-4398-A55B-BBA3A6E0EE35}">
+            <Component Id="cmp263CBB032086612C1D2C5E235229FBA5" Guid="{17B60726-9D1A-4FEC-910C-C1881FBE503E}">
                 <File Id="fil174D3B74A35C5F50E30FA9FDAD697A6B" KeyPath="yes" Source="$(var.SourcePluginDir)\libgsticydemux.dll" />
             </Component>
-            <Component Id="cmpFDD5F9D3F0FC4D53829396BF3D7982BC" Guid="{F61E5786-9D39-47A8-8475-1752A1C0E4C4}">
+            <Component Id="cmpFDD5F9D3F0FC4D53829396BF3D7982BC" Guid="{38AB0A25-360E-4394-81EA-E69F02A8594B}">
                 <File Id="fil9DF436726C174432CB44D2545304427F" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstid3demux.dll" />
             </Component>
-            <Component Id="cmp1EACDAB32C6D0E5FC168CE16D214E201" Guid="{6E7CE52A-422C-4FE5-9CFB-32F85A772759}">
+            <Component Id="cmp1EACDAB32C6D0E5FC168CE16D214E201" Guid="{01EB70C7-27C7-46BB-B510-5E9A736FFF02}">
                 <File Id="filFBD86B8EE081DE64DCE6B668568665BE" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstid3tag.dll" />
             </Component>
-            <Component Id="cmp484AAC859CC63BD79E9B1409C70D4C1A" Guid="{8375CC79-E554-4616-8BDD-51E523AA0083}">
+            <Component Id="cmp484AAC859CC63BD79E9B1409C70D4C1A" Guid="{D0D7661F-A923-4D03-A9AC-0DD741CE41AA}">
                 <File Id="filE5A8C634F194E001668BF25F02B4F1DA" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstimagefreeze.dll" />
             </Component>
-            <Component Id="cmp2A26CE3218ABE72F6B6B172150944BA5" Guid="{C6C0C305-9FDB-4AF6-8788-0DF432E4C675}">
+            <Component Id="cmp2A26CE3218ABE72F6B6B172150944BA5" Guid="{7E01D546-4FB2-45C5-A0A1-D9FC2974E4DA}">
                 <File Id="fil7B18A7A4573632AF0AE7E518B1B79223" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstinter.dll" />
             </Component>
-            <Component Id="cmp151A2AA59B8809E55ECFB575795404A4" Guid="{755B08A3-2F94-4E42-996E-8ABA5F811C18}">
+            <Component Id="cmp151A2AA59B8809E55ECFB575795404A4" Guid="{8402684D-0059-441F-A7C7-BCF7D6D6ED30}">
                 <File Id="fil722391A5E759ED1AC696178D5ACD2725" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstinterlace.dll" />
             </Component>
-            <Component Id="cmp95145A070EF403922D9AA1BE19FE90B7" Guid="{82165D76-A5C1-4702-B79D-AAF790D5DC39}">
+            <Component Id="cmp95145A070EF403922D9AA1BE19FE90B7" Guid="{A02BA8C2-FD3E-49FB-A976-35CA59C6C970}">
                 <File Id="filFA30CAD282171831732630442D169A45" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstinterleave.dll" />
             </Component>
-            <Component Id="cmp9942D521651DC8BFAAAD4FF2EC296EAB" Guid="{B5DB6C91-6AEE-4735-81F2-CE6006298BFA}">
+            <Component Id="cmp9942D521651DC8BFAAAD4FF2EC296EAB" Guid="{31F03126-F9BD-442B-AEF9-CF292A9AB5E5}">
                 <File Id="filC028EFD17C13029EE2D22F31F5637890" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstisomp4.dll" />
             </Component>
-            <Component Id="cmp04FB9A9C2B10F93D52EBA03FDDD611A9" Guid="{1B43CDE5-1866-47FB-BE3D-5399DFDC850F}">
+            <Component Id="cmp04FB9A9C2B10F93D52EBA03FDDD611A9" Guid="{E8C79472-FE85-4DBB-B424-801AFCEEDC02}">
                 <File Id="fil1170B469F61BAE9FBA11067BBB3E5DFE" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstivtc.dll" />
             </Component>
-            <Component Id="cmp022619BE7A7924C4862E21BE0C8DA1AA" Guid="{E19464B1-392D-40E2-930A-7827CED808D8}">
+            <Component Id="cmp022619BE7A7924C4862E21BE0C8DA1AA" Guid="{9AA60294-650A-4B26-BCD2-DC095BED2A9F}">
                 <File Id="fil9FE764E99CE320410C954359C1371CFD" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstjpeg.dll" />
             </Component>
-            <Component Id="cmpC0F7943512BFF08C3BCB1258D63CEF5B" Guid="{52C25AA9-FE2B-4364-8E3B-A00B4C20CF53}">
+            <Component Id="cmpC0F7943512BFF08C3BCB1258D63CEF5B" Guid="{C16F93A9-60F3-4CBB-BA93-CA60BC1FCA85}">
                 <File Id="fil38613ACFE27E0F0110A76BF4FA732177" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstjpegformat.dll" />
             </Component>
-            <Component Id="cmp2B0231C353663272B9CFD792C088E66C" Guid="{D30AE44D-0117-476F-8BC9-8F744390CB07}">
+            <Component Id="cmp2B0231C353663272B9CFD792C088E66C" Guid="{043A4AB6-3F73-4D1B-BF37-567D06BCE66C}">
                 <File Id="filB65C8ABB9770F2D6AB5742A7F422C0CD" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstkate.dll" />
             </Component>
-            <Component Id="cmp79E05CFFC0702A17A845A8940FF30FE5" Guid="{AABA4565-4AC3-49F4-BEE8-E40C8D3C7556}">
+            <Component Id="cmp79E05CFFC0702A17A845A8940FF30FE5" Guid="{AA9F5EC5-46D5-4545-B482-7CA48479F28B}">
                 <File Id="fil1B6698059BB199806C21E9774B1DB987" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstlame.dll" />
             </Component>
-            <Component Id="cmp142198E0FF0CD23CF304469575A4D5E5" Guid="{8D81FC75-AEE3-4A9E-A9AB-2F3AF8E6DC66}">
+            <Component Id="cmp142198E0FF0CD23CF304469575A4D5E5" Guid="{2AF55FBB-F281-446C-919D-6FD79C03C859}">
                 <File Id="filE2CFB8502FD39038519C0696E7637850" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstlegacyrawparse.dll" />
             </Component>
-            <Component Id="cmp6A126A141DDE861BFE0825FD341A473E" Guid="{3D692CE3-B15B-40D0-B3E3-64D837274434}">
+            <Component Id="cmp6A126A141DDE861BFE0825FD341A473E" Guid="{3F3A61C2-3C5A-4D03-9FA1-F1D4D6676108}">
                 <File Id="filCDCF270EA0F3EE17B36D81B99D0DEA7C" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstlevel.dll" />
             </Component>
-            <Component Id="cmpEFE39C92091F021FB5A3A37AEF55D949" Guid="{BBAD6AE4-A439-425D-AC29-A52077BF87E9}">
+            <Component Id="cmpEFE39C92091F021FB5A3A37AEF55D949" Guid="{EC8C71C9-65AE-436A-98F3-034F5F06C6B2}">
                 <File Id="fil307B897CF2A119568D0997C828400175" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstlibav.dll" />
             </Component>
-            <Component Id="cmp22D2C1BCC43FE6CA64B7EB498F563458" Guid="{B6BB8666-8D56-471E-A87D-80CC3F7B4E65}">
+            <Component Id="cmp22D2C1BCC43FE6CA64B7EB498F563458" Guid="{B0AAE4EF-B414-42B2-A94C-7C5BF9094DE9}">
                 <File Id="fil2C76FB6B4C5334883F8399E568A9E1E0" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstlibvisual.dll" />
             </Component>
-            <Component Id="cmp3F7AFC75D85072FB7EBE5FD8AB7AEC8F" Guid="{4BCEC8B8-BEB9-48E3-BCDE-B676B8063D10}">
+            <Component Id="cmp3F7AFC75D85072FB7EBE5FD8AB7AEC8F" Guid="{CFB1F277-D93C-4BC3-9359-7731FB8D1E9A}">
                 <File Id="filDD5DD8ABA1C5BD14C6F6F47349CBBA46" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstmatroska.dll" />
             </Component>
-            <Component Id="cmp05294CE1FBED8B8DB3FD1480C458A0CB" Guid="{D28A620B-F65F-41F9-AB31-5F5AEAD2C846}">
+            <Component Id="cmp05294CE1FBED8B8DB3FD1480C458A0CB" Guid="{A0517F7A-1545-4F5E-9189-74560E559CB3}">
                 <File Id="fil8F56FDD78DA1E90A23746FC53493761E" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstmidi.dll" />
             </Component>
-            <Component Id="cmpED5BDFB819A9E03BB2993EDADCE15129" Guid="{3A7AD8EC-2091-422B-B761-BC26A3E264C4}">
+            <Component Id="cmpED5BDFB819A9E03BB2993EDADCE15129" Guid="{C6A9A29F-053E-4468-9C7C-46C663EE1A6F}">
                 <File Id="fil1891CB2B6A1B0D4AC91CD1344427197F" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstmms.dll" />
             </Component>
-            <Component Id="cmpFED7AE196734534D44E990CCDFA59E31" Guid="{0F9C8B00-0F24-4FF6-92C7-953A19A7D104}">
+            <Component Id="cmpFED7AE196734534D44E990CCDFA59E31" Guid="{4EB07689-BF68-459E-A405-6538331B6903}">
                 <File Id="fil0D8F194D4401034BC6D438263D56BAE0" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstmpeg2dec.dll" />
             </Component>
-            <Component Id="cmpF30C27E2A2A95D0375AA3B40CB587475" Guid="{D5A0EB7A-7D87-4832-8B49-D468633C1E2E}">
+            <Component Id="cmpF30C27E2A2A95D0375AA3B40CB587475" Guid="{13C83DC5-00B5-46FB-BD5A-E4FF56DB3068}">
                 <File Id="fil33B87E2DEF4D121DDFA07C3C24A8584B" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstmpegpsdemux.dll" />
             </Component>
-            <Component Id="cmpC419E99EFF42B2E5C81486517A3D2662" Guid="{68DA3B2D-31FE-4B8B-B47B-8AC3FA7F8941}">
+            <Component Id="cmpC419E99EFF42B2E5C81486517A3D2662" Guid="{534613C2-63D1-4025-BC7B-5BCAE09FDAD1}">
                 <File Id="filB2A957C015AD11E6628AE11707DD4A50" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstmpegpsmux.dll" />
             </Component>
-            <Component Id="cmp553245278AEF4515737375352D9C2A9F" Guid="{097D793D-22DB-42EA-A1E9-2B73E50A5C04}">
+            <Component Id="cmp553245278AEF4515737375352D9C2A9F" Guid="{87CDC503-E67F-4AF5-8AA7-D0E283A017BB}">
                 <File Id="filFDC034C260BE306DD324208210BFA685" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstmpegtsdemux.dll" />
             </Component>
-            <Component Id="cmp7D2B81306616956250967CBD771B0E2D" Guid="{924AEF04-BFE6-4C6B-8E42-7B503057A752}">
+            <Component Id="cmp7D2B81306616956250967CBD771B0E2D" Guid="{CFAEE5BB-8BFA-4504-B94C-A2A3817A4EE6}">
                 <File Id="filDBBB4B1299BE0DAB9612B55A50740A4C" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstmpegtsmux.dll" />
             </Component>
-            <Component Id="cmpC53C4EC9EA6A81DD7694E012EAA09D7C" Guid="{8DE7A2A6-86A5-4D2C-A34B-8DB7E2BF800E}">
+            <Component Id="cmpC53C4EC9EA6A81DD7694E012EAA09D7C" Guid="{7DA29746-4078-4519-8122-A028C3EFEF64}">
                 <File Id="fil900F1DE43E2D71FA74645D05C1F46C27" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstmpg123.dll" />
             </Component>
-            <Component Id="cmp4D125A74C5D693E84224F9127B3962D0" Guid="{132073D6-4ECD-4D03-A9D3-23EEB76C5A1C}">
+            <Component Id="cmp4D125A74C5D693E84224F9127B3962D0" Guid="{3507D8F1-C660-42A1-B08E-418E136F87BA}">
                 <File Id="filA71E9C683F779DE851341403FBF908E5" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstmulaw.dll" />
             </Component>
-            <Component Id="cmp9D1C8E45FE14CD6F83E8F993EA07366D" Guid="{9B13B5D4-59BF-491E-BE3A-D15BE4AC3129}">
+            <Component Id="cmp9D1C8E45FE14CD6F83E8F993EA07366D" Guid="{C512339A-9E9D-4130-AA95-125269FF0B4B}">
                 <File Id="fil0D80579C31CCDAD31521CAE8980B5E43" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstmultifile.dll" />
             </Component>
-            <Component Id="cmpFD5D77E832DAA51E30006E3DB8B9CB6A" Guid="{99BB510D-75F3-4E3C-A7AE-62075DE6B894}">
+            <Component Id="cmpFD5D77E832DAA51E30006E3DB8B9CB6A" Guid="{D2195B69-DAA0-4904-BE49-80C9E771A06E}">
                 <File Id="filC9906790B3C9D87F7FADB33D6E2AD19E" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstmultipart.dll" />
             </Component>
-            <Component Id="cmpB5DAF69E07964CF96D951F5BE071B345" Guid="{F7C5F473-A7C0-43A8-B68D-2A769EB6DE51}">
+            <Component Id="cmpB5DAF69E07964CF96D951F5BE071B345" Guid="{84BF23CF-1449-48F7-92BA-0ADDB7EE3BE8}">
                 <File Id="fil4A6258DD9E7BF7C9A6219EA897CD6DF2" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstmxf.dll" />
             </Component>
-            <Component Id="cmp41A3C2284C3ADF5DC79BF61D4A9D6320" Guid="{36C21B94-9ABD-47F0-94C0-494908A0228A}">
+            <Component Id="cmp41A3C2284C3ADF5DC79BF61D4A9D6320" Guid="{B5817719-2FEE-4908-8B74-C8EC91F075DB}">
                 <File Id="fil4CFF93510EF7418886B8E03105FCE529" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstnice.dll" />
             </Component>
-            <Component Id="cmpF5DB1219D5FC90AB6C57C95219C1D14E" Guid="{EA66B600-C38B-40A2-9E0F-204006278CBA}">
+            <Component Id="cmpF5DB1219D5FC90AB6C57C95219C1D14E" Guid="{0B7F5D1C-FD0C-469C-834B-80C421AB3A93}">
                 <File Id="filFAAF485D286867271FDE7AF28F01A094" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstnle.dll" />
             </Component>
-            <Component Id="cmpDB1B387FE51C7B4A206292C117D5A555" Guid="{117CE206-A84F-478B-8DBA-07AE16D764A7}">
+            <Component Id="cmpDB1B387FE51C7B4A206292C117D5A555" Guid="{963757D5-C6CA-4463-888B-C2C6E40D08BC}">
                 <File Id="fil97AFD46E1820FABF9DB5A7EB03430F37" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstogg.dll" />
             </Component>
-            <Component Id="cmp8BCEE41EFE31FB803C4A31326AADF510" Guid="{CC2338AC-86A8-497E-AC95-DDE5301D18E7}">
+            <Component Id="cmp8BCEE41EFE31FB803C4A31326AADF510" Guid="{68194028-76A3-4C66-B0E4-77FF8E358B33}">
                 <File Id="fil86BAA0FE7B506A6798A4DEF1055DF017" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstopengl.dll" />
             </Component>
-            <Component Id="cmpB486AD1D6C45E287CA72FB0B88226E1D" Guid="{0B57A3C2-9668-4339-9FCE-CE3CC6176A34}">
+            <Component Id="cmpB486AD1D6C45E287CA72FB0B88226E1D" Guid="{79EBB453-E4B0-4A1F-8287-B79020071516}">
                 <File Id="fil5B58D61AB8B2DFE4C4F9C5391FC2C4D6" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstopenh264.dll" />
             </Component>
-            <Component Id="cmp110E792DDE9E9996062EFECE22AD4788" Guid="{90511421-8783-44CB-8D44-05B176C426D6}">
+            <Component Id="cmp110E792DDE9E9996062EFECE22AD4788" Guid="{86AF485D-ED7B-4D32-9FDD-C7745714F0B9}">
                 <File Id="fil12733ECE2DCFC711303445E85E44A5C4" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstopenjpeg.dll" />
             </Component>
-            <Component Id="cmpCFE12F401AADFDB021F2832AD9E5E15B" Guid="{494BDEC4-956D-415D-ACCC-962EA4C90AA0}">
+            <Component Id="cmpCFE12F401AADFDB021F2832AD9E5E15B" Guid="{775137D8-7B5F-41F9-AFC4-4CE2C9772549}">
                 <File Id="filBBECBC540A28FD0CFDEC0A67AE2B85C8" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstopus.dll" />
             </Component>
-            <Component Id="cmpFC9093DCEBC07718CB82F8E92B1712FA" Guid="{2421EE88-05F2-4984-91CF-CA6D9725015D}">
+            <Component Id="cmpFC9093DCEBC07718CB82F8E92B1712FA" Guid="{0CDEA1EE-C25C-48D2-96A8-DDE1834192E5}">
                 <File Id="filAC2C95900F806F61452917E589DBC4D6" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstopusparse.dll" />
             </Component>
-            <Component Id="cmp2D2B34867CECC74CF5F079EC4120925F" Guid="{CAFB610C-2DBB-46CA-B311-C2EF23C38134}">
+            <Component Id="cmp2D2B34867CECC74CF5F079EC4120925F" Guid="{A55D9BE9-20E2-474A-8C3C-21968F360552}">
                 <File Id="fil38B81CE779518522C994FB8A040A44CB" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstpango.dll" />
             </Component>
-            <Component Id="cmp6A1F372B8ABA67EC63C39F07142EDEF6" Guid="{D3213517-F585-4A3C-8BB0-208E381D509A}">
+            <Component Id="cmp6A1F372B8ABA67EC63C39F07142EDEF6" Guid="{A61467DA-9CCD-4451-AA46-434BE40FDB00}">
                 <File Id="filAE51183AED61D3C928D4000A2CE929FE" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstpcapparse.dll" />
             </Component>
-            <Component Id="cmpFA291E8CCD9DF93296C2363C41ACF8D2" Guid="{310991E7-239A-420B-9020-7CD72166A547}">
+            <Component Id="cmpFA291E8CCD9DF93296C2363C41ACF8D2" Guid="{BB5B8FA3-E076-4C0D-A873-BF8C877024EC}">
                 <File Id="filAEA8E2AFB7B42A85A8530F3E0D4999C3" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstplayback.dll" />
             </Component>
-            <Component Id="cmp9AB29B6F9E04F71E1BAFF5756BCB45F9" Guid="{FD1C321A-BDBE-4D57-96D4-B00285F4282C}">
+            <Component Id="cmp9AB29B6F9E04F71E1BAFF5756BCB45F9" Guid="{86214513-4F55-4759-9B4A-93193EC38875}">
                 <File Id="fil7A4F9021F7B02FE1139E4BF6E894742A" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstpng.dll" />
             </Component>
-            <Component Id="cmp4FC03F88FD89C621BDC707B5AF23006A" Guid="{E0ED54FA-605D-462D-A563-06504599FD56}">
+            <Component Id="cmp4FC03F88FD89C621BDC707B5AF23006A" Guid="{3A24AD37-62D3-402D-8CC7-FDC18F590F5C}">
                 <File Id="fil25CA8F0094C7157ABA1C946F082B00C8" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstpnm.dll" />
             </Component>
-            <Component Id="cmpAFDB3940FC48DAB70DFB2EB8AB67A655" Guid="{A17F223F-0B99-4614-85B8-AF7A2AAB2524}">
+            <Component Id="cmpAFDB3940FC48DAB70DFB2EB8AB67A655" Guid="{52C56637-19BA-4555-828A-31DA76B788AB}">
                 <File Id="filA5783B84AD638E7D9A4F16542DFAF397" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstrawparse.dll" />
             </Component>
-            <Component Id="cmpEC07BE231497A19502EC3F3FC511DDB8" Guid="{A4861BC1-9AE4-4C3A-A768-4A61288A5313}">
+            <Component Id="cmpEC07BE231497A19502EC3F3FC511DDB8" Guid="{1A29FD26-9915-4C3D-8E8B-403D35A890D9}">
                 <File Id="fil0BD18030213BB578D1B28FC542F3C082" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstrealmedia.dll" />
             </Component>
-            <Component Id="cmp3C0B140D6CFBA101B4FD6F723CA1C5A8" Guid="{AC70899C-83D1-4CC0-B8A9-DCB41EE95DF5}">
+            <Component Id="cmp3C0B140D6CFBA101B4FD6F723CA1C5A8" Guid="{7C4593AA-8A96-4F7D-AF47-1088788BCC20}">
                 <File Id="fil49A0AAA5633DE888C86D3FC9098DFCEF" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstremovesilence.dll" />
             </Component>
-            <Component Id="cmp9EFA0F36DB0983A18CD7533A9AA40B1B" Guid="{45818D75-C0EF-4A43-A474-58AF17C236D2}">
+            <Component Id="cmp9EFA0F36DB0983A18CD7533A9AA40B1B" Guid="{774E300F-1B96-464B-AC14-944825B4DB24}">
                 <File Id="fil56D00B975E75F3BE3D9C38951545CBD3" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstreplaygain.dll" />
             </Component>
-            <Component Id="cmp39A494AF68538D98CAAE2207F863972D" Guid="{BFE80DD6-AE13-43E4-B561-17B7CA289458}">
+            <Component Id="cmp39A494AF68538D98CAAE2207F863972D" Guid="{EA3CF8BB-07C1-4800-82F0-15E0A191BDC1}">
                 <File Id="filE179735F3F5C6EF54E15C751CBBF2C64" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstresindvd.dll" />
             </Component>
-            <Component Id="cmpA6B4DC7E73012CFD4F2D421D5F47CB16" Guid="{51E5F1B6-FDC1-4F66-B1BE-5BEC794565CA}">
+            <Component Id="cmpA6B4DC7E73012CFD4F2D421D5F47CB16" Guid="{111CD551-456C-42D5-A86C-52F9E9D7990C}">
                 <File Id="filE18B95F3F9DA061424A322022DE7D4AE" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstrfbsrc.dll" />
             </Component>
-            <Component Id="cmp48E01EC429FE0B7EE128E977D43C26FA" Guid="{AECF94D6-258A-4DC1-AFA5-96304AA89B19}">
+            <Component Id="cmp48E01EC429FE0B7EE128E977D43C26FA" Guid="{0C90221D-E58E-48B9-A634-EE2F7C2D0CD6}">
                 <File Id="filCEB8CCEFF024A3DEE7962DAA6581A628" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstrsvg.dll" />
             </Component>
-            <Component Id="cmp72744A17562D9047B25AAF4911D615E5" Guid="{9F98B7B5-427B-44E0-898C-860FF83A7862}">
+            <Component Id="cmp72744A17562D9047B25AAF4911D615E5" Guid="{5F4DCA38-CEAE-4304-9EDC-B34C22BD77ED}">
                 <File Id="filE3100B54FF179E5765021F048B0118ED" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstrtmp.dll" />
             </Component>
-            <Component Id="cmpDA04436C797B2D091618C5017DF765F8" Guid="{C9763618-56BC-45C2-A7BE-0709F78C5255}">
+            <Component Id="cmpDA04436C797B2D091618C5017DF765F8" Guid="{BC36073E-B6DC-44E7-9100-104ECD37A346}">
                 <File Id="fil94F2D2C2B74D5F648FF604375ECAF06F" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstrtp.dll" />
             </Component>
-            <Component Id="cmp44DA5DCE8184610B183BED00A8C4A50D" Guid="{F656BE58-60E3-484F-AA8B-85D07868EE70}">
+            <Component Id="cmp44DA5DCE8184610B183BED00A8C4A50D" Guid="{F7B23C52-92E8-45C2-83FF-C2B36CEA3610}">
                 <File Id="filC2B2D4EA75AD5BEA396B04B0C6034F7E" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstrtpmanager.dll" />
             </Component>
-            <Component Id="cmpF25C296C5D53AB052FB738BDC73A6D19" Guid="{E2AC73A0-E3A3-4589-A78C-2C2366FAEB9D}">
+            <Component Id="cmpF25C296C5D53AB052FB738BDC73A6D19" Guid="{C4140E67-4657-40C9-ABE7-C6E05DC0E40D}">
                 <File Id="fil5981B9EF16BB671EDF47B5F2945A39F8" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstrtsp.dll" />
             </Component>
-            <Component Id="cmp3173A3F483D847299B16FBF8183D9159" Guid="{75C5E5EB-2B5A-4A5F-960A-18659629467E}">
+            <Component Id="cmp3173A3F483D847299B16FBF8183D9159" Guid="{4240E12F-F7A2-44A1-8D74-A9FD8DC6F040}">
                 <File Id="fil5E6919227BB6A992E38824331BB02526" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstrtspclientsink.dll" />
             </Component>
-            <Component Id="cmpA3B870F3CD2591B44DEA3C9F3E273D0B" Guid="{BDD03D90-4805-49F8-9441-520B22EBC28A}">
+            <Component Id="cmpA3B870F3CD2591B44DEA3C9F3E273D0B" Guid="{F05A0AFA-34AE-4C99-882E-F08883F036B3}">
                 <File Id="fil55B3FBE781198D0C857DF9C4BBDB175B" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstsbc.dll" />
             </Component>
-            <Component Id="cmp42C035589D27AAEC3F554AF62F7C0893" Guid="{0E0772F0-33F5-4CB4-B1DA-0CB84FF0EC80}">
+            <Component Id="cmp42C035589D27AAEC3F554AF62F7C0893" Guid="{37849B76-0E2D-4B8C-BA65-D8D37DABC88B}">
                 <File Id="filC3DE73A36C1EC00ADFC99A0D99698CAF" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstsdpelem.dll" />
             </Component>
-            <Component Id="cmpA729C1F72310519D6CFA2C7DEFBF9645" Guid="{E5F141CC-80A9-449D-9A77-61C1467682AC}">
+            <Component Id="cmpA729C1F72310519D6CFA2C7DEFBF9645" Guid="{6B2249E3-06D6-47A0-869A-77BF5C82425A}">
                 <File Id="fil9B5E43BCAB43EB054B6F5676C74FFE58" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstsegmentclip.dll" />
             </Component>
-            <Component Id="cmpA9512E89C52312AB81644193C404A0E2" Guid="{52486AC5-38D0-49E2-A01A-DF4EB8F03A2F}">
+            <Component Id="cmpA9512E89C52312AB81644193C404A0E2" Guid="{268EAD3C-3841-47BA-A640-FBCE53CC63DC}">
                 <File Id="filE0C290CDC79EC772CDCA4608A0A540AF" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstshapewipe.dll" />
             </Component>
-            <Component Id="cmp102497ACADAEE029757CCE34BB5784C0" Guid="{9244B5A9-52DE-4726-BD5F-3FFB754C655F}">
+            <Component Id="cmp102497ACADAEE029757CCE34BB5784C0" Guid="{84A53EBC-5325-4363-9A2F-98AD692CCA59}">
                 <File Id="filB4BF6808A345FAF27997B1766B5AA4BC" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstsiren.dll" />
             </Component>
-            <Component Id="cmpCE2402D95141894E31B315CDBF164797" Guid="{43E4CBC9-B387-41CD-956D-23F3E4EAC2C0}">
+            <Component Id="cmpCE2402D95141894E31B315CDBF164797" Guid="{7F942AF0-340F-4577-989F-0D0A71932E31}">
                 <File Id="fil8E1CC9A88185CC3F6AA564BC8A44523C" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstsmooth.dll" />
             </Component>
-            <Component Id="cmp970AC8E568B8E2C56837ACFC2306C15E" Guid="{C4FBEF4B-9A05-4CA3-8A30-0CDBB2B80A38}">
+            <Component Id="cmp970AC8E568B8E2C56837ACFC2306C15E" Guid="{BEBA46FF-685C-49EE-9C2B-2C93036FC48D}">
                 <File Id="fil182C02D3E3DF01795FEF74D9B1BC0237" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstsmoothstreaming.dll" />
             </Component>
-            <Component Id="cmp19C2573395CF4CC77667266B9DDF05AA" Guid="{DA421C96-EB50-4C33-A0C7-8FA67F600823}">
+            <Component Id="cmp19C2573395CF4CC77667266B9DDF05AA" Guid="{39F6FEF3-7E41-4CB5-A2DF-511D676D59AE}">
                 <File Id="filDF2DBB2B33F0D38926A948CFB2DA5016" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstsmpte.dll" />
             </Component>
-            <Component Id="cmp81C2DABDA592CBEE6B5963502D29B08D" Guid="{384CA67F-6022-4850-8DE7-A55AB2A9FF97}">
+            <Component Id="cmp81C2DABDA592CBEE6B5963502D29B08D" Guid="{627EB6E4-E203-499D-8753-CB29D03AAEAE}">
                 <File Id="filAEA5AFE986DBD6A3D3AC25FCD751EC96" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstsoundtouch.dll" />
             </Component>
-            <Component Id="cmp8702B0187DC5C1C1E0A52F109FB9A2FA" Guid="{674546C6-F9B9-4CCA-98E0-D1A34678F5E8}">
+            <Component Id="cmp8702B0187DC5C1C1E0A52F109FB9A2FA" Guid="{67DEDA94-71BA-46DF-AEF9-5912A89255CF}">
                 <File Id="fil25017CE0B6D856927939CD0B34FDE348" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstsoup.dll" />
             </Component>
-            <Component Id="cmp8B616F7F665660407689A2DCF56D454E" Guid="{67F4B145-64F4-4D37-915A-7A0994DC895E}">
+            <Component Id="cmp8B616F7F665660407689A2DCF56D454E" Guid="{67AF91EB-9624-4EE3-A846-4BE3D118536E}">
                 <File Id="fil4C65EA23ED89C1DD92E298CC80738CBE" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstspandsp.dll" />
             </Component>
-            <Component Id="cmpA760959B3F4B18B7714535C1091C724F" Guid="{FEB7D315-923E-4B14-8C43-0830E7F90512}">
+            <Component Id="cmpA760959B3F4B18B7714535C1091C724F" Guid="{5A56EE83-91A0-4D89-BEFF-A2C741648C2D}">
                 <File Id="filCE399713D6FD0B53ADCB528B74586D7F" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstspectrum.dll" />
             </Component>
-            <Component Id="cmpA12F6B18566E339FC1A1A90C2A45D67A" Guid="{6CD757ED-01AD-41A8-B730-17F592DFA921}">
+            <Component Id="cmpA12F6B18566E339FC1A1A90C2A45D67A" Guid="{95091EC4-9B02-4BFB-9BA9-CC79453B220A}">
                 <File Id="fil7C0884268C3396CC66CAF9D00781A23B" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstspeed.dll" />
             </Component>
-            <Component Id="cmp6FF843D8581CA4E49B3B8B349C511452" Guid="{F9FC52C3-1C01-4FA5-B40B-FADC6CBFD145}">
+            <Component Id="cmp6FF843D8581CA4E49B3B8B349C511452" Guid="{0FDF3B12-E07C-47A6-8799-1749146983BF}">
                 <File Id="fil2F4444F3CC4D545A814C32008199A6F5" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstspeex.dll" />
             </Component>
-            <Component Id="cmp842B686603564F8BD9B6C00D45657CAE" Guid="{CDFFF35C-ABD8-4D52-AE60-0A309458BB2F}">
+            <Component Id="cmp842B686603564F8BD9B6C00D45657CAE" Guid="{BD263E25-4152-4D6C-BA80-A18B78DD1FD6}">
                 <File Id="filCBF7E7E47A79388CF305DDD1A02DAEC7" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstsrtp.dll" />
             </Component>
-            <Component Id="cmpCB550FDFD02E9D92043894D948E7151F" Guid="{7E6D1934-8074-49AA-B11A-2DF8148EC2C6}">
+            <Component Id="cmpCB550FDFD02E9D92043894D948E7151F" Guid="{D7CD1CE5-DDC7-4DB5-A7C8-B682697D3D2B}">
                 <File Id="fil6FA0C14DFAFCE51CB59CA5A2BA03AF02" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstsubenc.dll" />
             </Component>
-            <Component Id="cmpCA3A308D3B01AF85C88CABBD38D50CB7" Guid="{1A0C42BD-6EB7-479D-A37F-D438C1035A66}">
+            <Component Id="cmpCA3A308D3B01AF85C88CABBD38D50CB7" Guid="{65B88816-985F-4A7A-827F-FEEF6D36009D}">
                 <File Id="fil385FBE18DE5206F3C536D344F16C86B9" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstsubparse.dll" />
             </Component>
-            <Component Id="cmpCFE35D7E6F4F8813E7C30E955366ED54" Guid="{714C8815-2710-4FBB-BCC2-42A16236A131}">
+            <Component Id="cmpCFE35D7E6F4F8813E7C30E955366ED54" Guid="{C754CE00-DB68-4FC0-89FD-58C648F87C8F}">
                 <File Id="fil0DFE4C52161BE44FA29CA64FDAA20286" KeyPath="yes" Source="$(var.SourcePluginDir)\libgsttaglib.dll" />
             </Component>
-            <Component Id="cmp4009EAFDC89A5A0815F02A33513EC7EF" Guid="{8F9A39BC-7E8D-4735-A95B-87A84E462DF9}">
+            <Component Id="cmp4009EAFDC89A5A0815F02A33513EC7EF" Guid="{6E204D7A-FA9D-475A-90EE-8492BE238734}">
                 <File Id="fil5C9E49E28DC4679B408C5B96034AFE39" KeyPath="yes" Source="$(var.SourcePluginDir)\libgsttcp.dll" />
             </Component>
-            <Component Id="cmpD1EA85A15F263C37CB5C187D932E5305" Guid="{CA2E25C2-6D7D-490E-99AE-7696928D1732}">
+            <Component Id="cmpD1EA85A15F263C37CB5C187D932E5305" Guid="{179D7510-03FE-40CC-8EA5-0EA3CA017CBB}">
                 <File Id="filF09561FD1A704FC471B05CAD71741DEC" KeyPath="yes" Source="$(var.SourcePluginDir)\libgsttheora.dll" />
             </Component>
-            <Component Id="cmpDBEF09DAEA038E1CB001FA400B4604B4" Guid="{A8069CB1-E232-47F2-9691-609D7732EB40}">
+            <Component Id="cmpDBEF09DAEA038E1CB001FA400B4604B4" Guid="{B9449091-448C-40C3-B337-82D601BB8438}">
                 <File Id="fil05E46A91C7398E1E063323442B0BE57F" KeyPath="yes" Source="$(var.SourcePluginDir)\libgsttypefindfunctions.dll" />
             </Component>
-            <Component Id="cmpD5EE9E8FE856B625A86E0126BAE5713F" Guid="{1522ED42-9E3F-46F9-B874-BB6A40B171E4}">
+            <Component Id="cmpD5EE9E8FE856B625A86E0126BAE5713F" Guid="{9A6D24D5-2BF2-4AA7-A45E-602BF2F9C557}">
                 <File Id="filC41BFD90EBED843991109C193D821094" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstudp.dll" />
             </Component>
-            <Component Id="cmp5459957CA58741EAF794F1F7EBBB23FD" Guid="{7A90DC05-4C07-4239-B417-E485E46C4CFA}">
+            <Component Id="cmp5459957CA58741EAF794F1F7EBBB23FD" Guid="{DE2953E0-A031-465E-97B0-30C3D340C7BB}">
                 <File Id="fil973FA5D6118C271982F957BE11ABA4D4" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstvideobox.dll" />
             </Component>
-            <Component Id="cmp1A16BD9710DB9E765C007920BA356D8A" Guid="{C822457E-E454-4309-AEA5-8B1E9155CEB0}">
+            <Component Id="cmp1A16BD9710DB9E765C007920BA356D8A" Guid="{4CFF0221-0B2B-4365-BE49-7B0D10F0DD00}">
                 <File Id="filA4A6683F724E44A1D9585B1365ED8F0E" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstvideoconvert.dll" />
             </Component>
-            <Component Id="cmp2BF5A494682B7236C250A27BE37C2D7E" Guid="{3C6AD4DA-0126-48FA-A618-7DBEE74232AC}">
+            <Component Id="cmp2BF5A494682B7236C250A27BE37C2D7E" Guid="{0B49AC7D-F9EA-4D70-BDE1-B65D9078DE2A}">
                 <File Id="fil7E5F76504B11E9117AAA81539E5CEFAD" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstvideocrop.dll" />
             </Component>
-            <Component Id="cmpDAC132325B1110221EBBC61D7F56E2DD" Guid="{C4592409-15CB-4AA2-87BE-E912615DD686}">
+            <Component Id="cmpDAC132325B1110221EBBC61D7F56E2DD" Guid="{1F3E6AEE-0208-4A00-93C3-227E5084D437}">
                 <File Id="filD203D16D81BD86A3A72EB2149E6E15B9" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstvideofilter.dll" />
             </Component>
-            <Component Id="cmpF15F5FEEBB6099DF9C7F8D8A3B329863" Guid="{8F460585-CA11-486A-88EA-24FA58CC4A67}">
+            <Component Id="cmpF15F5FEEBB6099DF9C7F8D8A3B329863" Guid="{C433B35A-6149-47E5-B23E-6CE05D93172C}">
                 <File Id="filCA368CBED2D182F1D90C3D4E4CAEC55A" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstvideofiltersbad.dll" />
             </Component>
-            <Component Id="cmpAA8A9FD640344F4B7F333AC0A825FDAC" Guid="{AF54CC9C-AB3A-4327-BE77-2B16C94D03EE}">
+            <Component Id="cmpAA8A9FD640344F4B7F333AC0A825FDAC" Guid="{59D6EC7E-C7DE-437D-BE74-73E715A1E0EA}">
                 <File Id="filEE5493D244481B67F4D1A7869996D95E" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstvideomixer.dll" />
             </Component>
-            <Component Id="cmp219A2479C21CD1A5C88255DA08B15DA2" Guid="{C1021BF2-B506-41DD-B288-28526B20C301}">
+            <Component Id="cmp219A2479C21CD1A5C88255DA08B15DA2" Guid="{77464341-5A6D-43EB-9096-18FE4FB8922F}">
                 <File Id="fil05E0DC6A8D0F2691AB4D09F4AFC14A2F" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstvideoparsersbad.dll" />
             </Component>
-            <Component Id="cmp994B9ECB91D49873163100D915C58822" Guid="{2FFA04C1-0FD9-4A77-BB82-8DFDAB5AACDA}">
+            <Component Id="cmp994B9ECB91D49873163100D915C58822" Guid="{1A3F2297-F7BC-45AF-AF34-3810198DD4B4}">
                 <File Id="filBCC3C49315F4407F1A4A78BF72002B67" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstvideorate.dll" />
             </Component>
-            <Component Id="cmpD36F4A4E4F831278412452139E34632C" Guid="{2989F7FD-95E9-4D33-B689-BE63DF20B4C2}">
+            <Component Id="cmpD36F4A4E4F831278412452139E34632C" Guid="{B91760E5-FA38-402D-8616-130E88ED8F80}">
                 <File Id="fil164348085ABA9670A6FDE4F6B61B5EE3" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstvideoscale.dll" />
             </Component>
-            <Component Id="cmpF371B25291C321F28C6A9551C32C17E2" Guid="{090C2392-FEA7-4F1E-8348-635F375A99ED}">
+            <Component Id="cmpF371B25291C321F28C6A9551C32C17E2" Guid="{BA9F8E83-DC3E-46DD-AF10-698CFCA6DE90}">
                 <File Id="fil017EA1F9605C74DE8F5CE9FEB5B9D948" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstvideotestsrc.dll" />
             </Component>
-            <Component Id="cmp1302725D10EC509050769BC8461762B5" Guid="{96C32F81-8B2C-4328-84D2-4D628861FDB5}">
+            <Component Id="cmp1302725D10EC509050769BC8461762B5" Guid="{647399F5-2B9D-4B66-A633-B0E8CBE6F2D6}">
                 <File Id="filEA773D1466480D5698A9797AE7DB41DF" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstvoaacenc.dll" />
             </Component>
-            <Component Id="cmpE5575CD0158D09C433069A7C36EA1F2E" Guid="{976CBFBD-0D8F-47DB-A9C4-A1B9385693F4}">
+            <Component Id="cmpE5575CD0158D09C433069A7C36EA1F2E" Guid="{74A72B2C-E1EB-4D39-AEC6-6E4480ADB651}">
                 <File Id="fil42A97F30ECB0A254E2E6D2C1C1548494" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstvolume.dll" />
             </Component>
-            <Component Id="cmp249370E500A984D6964B03341EE33F4A" Guid="{2F406EFC-DA73-4B84-9300-4D531505BC28}">
+            <Component Id="cmp249370E500A984D6964B03341EE33F4A" Guid="{048500DA-D965-45C1-9931-50890641E986}">
                 <File Id="filB84E3F039EC82ED859C4EB024CBC1109" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstvorbis.dll" />
             </Component>
-            <Component Id="cmpED76D8AB20455592524E24E318D2BCFD" Guid="{54CB01DA-005C-4FF0-84A5-2686FCD274E0}">
+            <Component Id="cmpED76D8AB20455592524E24E318D2BCFD" Guid="{200E8509-F8DE-4388-A25A-2CB596766975}">
                 <File Id="filA6C4DC0B8C3EF9866FA90D4D32D564F6" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstvpx.dll" />
             </Component>
-            <Component Id="cmp40B0080207B1DAAF8B5D504430CBED41" Guid="{B9157CAF-AAD6-41AB-8A57-3B4EC06BCF32}">
+            <Component Id="cmp40B0080207B1DAAF8B5D504430CBED41" Guid="{5C9BB9F2-1676-4D47-849A-B64F6F1E7ED3}">
                 <File Id="fil2E4673AF43908A70F977B22AA9CD215B" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstwasapi.dll" />
             </Component>
-            <Component Id="cmp862707347EAF12842A7BA14F2E88D18F" Guid="{A1369C56-66AC-4031-AF0F-28A8F904AAA4}">
+            <Component Id="cmp862707347EAF12842A7BA14F2E88D18F" Guid="{8338D567-BF69-4260-A6DA-B840D95D56C7}">
                 <File Id="filB9105EB24E51F8156A1AC8A751FB6A90" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstwavenc.dll" />
             </Component>
-            <Component Id="cmp84CCCCC965AEC8CA25FD6884A246CD73" Guid="{3484D656-D72F-4BA3-9C40-BCEE8233B5CE}">
+            <Component Id="cmp84CCCCC965AEC8CA25FD6884A246CD73" Guid="{E03E0C37-8A8A-474C-8DBD-7EF2034572A5}">
                 <File Id="filDC7C558B49588376E4666E5F3ABA58C3" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstwavpack.dll" />
             </Component>
-            <Component Id="cmp39B410420B5D1FE36DFE3912B95774E8" Guid="{306AC33C-5CD4-43EA-9617-72D4DD6B17E8}">
+            <Component Id="cmp39B410420B5D1FE36DFE3912B95774E8" Guid="{B523FB13-7146-40AB-BBF5-A617BA214032}">
                 <File Id="fil0D0FFED8CC9161598CD4BA637C845DB2" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstwavparse.dll" />
             </Component>
-            <Component Id="cmp4A4797079E53CF2703553230AEC4A7EC" Guid="{1D70A670-9FB2-4050-8ED0-2496F6ED4382}">
+            <Component Id="cmp4A4797079E53CF2703553230AEC4A7EC" Guid="{328184F8-F05B-4A8B-B0FB-801BD3EF178F}">
                 <File Id="fil9EEDA094FC90E849831E0C0552C36B9A" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstwinks.dll" />
             </Component>
-            <Component Id="cmpF6D0D67497272D8A9E37DC629582150D" Guid="{86BA6615-AEE5-45D0-B56F-FF21CB7CCDCE}">
+            <Component Id="cmpF6D0D67497272D8A9E37DC629582150D" Guid="{00292E3C-2378-493E-8468-1834FEAE4D2E}">
                 <File Id="filFB851F4A9D4A5C7E59F964BDE957B63F" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstwinscreencap.dll" />
             </Component>
-            <Component Id="cmp1865E9D5CF9B35AA38BBDEC0CF12B6A3" Guid="{E1EA9C7E-39F7-4F9D-8C5F-F344945A5CB3}">
+            <Component Id="cmp1865E9D5CF9B35AA38BBDEC0CF12B6A3" Guid="{2131E2B5-7C11-4434-8D4D-A34DFCAB62F2}">
                 <File Id="filBDED43808F3CA04FD16237AF50439D66" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstx264.dll" />
             </Component>
-            <Component Id="cmpFA6BEAACD22687895CDD175BD9F51201" Guid="{891D4F6A-BAEB-4983-B423-D50307E011CB}">
+            <Component Id="cmpFA6BEAACD22687895CDD175BD9F51201" Guid="{D9D194BA-896A-43E4-82C6-58CFC7B7B04C}">
                 <File Id="fil4DD622685847C85C152FBE363A14F72C" KeyPath="yes" Source="$(var.SourcePluginDir)\libgstxingmux.dll" />
             </Component>
-            <Component Id="cmpFBB8621540F4AA8571BF4841447EF0B5" Guid="{838536AB-587D-4DF5-BF89-602FD5F892BD}">
+            <Component Id="cmpFBB8621540F4AA8571BF4841447EF0B5" Guid="{93AB85F6-68C8-4070-8129-3F46A845B887}">
                 <File Id="fil1B587D606D6C727CA89AA5A113897D57" KeyPath="yes" Source="$(var.SourcePluginDir)\libgsty4mdec.dll" />
             </Component>
-            <Component Id="cmpDBA72243F35BE9FC28456F5CF3C2A091" Guid="{017D2609-7E85-4323-B38E-BFB4DD63E349}">
+            <Component Id="cmpDBA72243F35BE9FC28456F5CF3C2A091" Guid="{6FB1D2F2-9D2A-4CFE-8910-E51E46CDFDC3}">
                 <File Id="fil5D9DD6B202FD9FE44C4AA6F4B7B883B6" KeyPath="yes" Source="$(var.SourcePluginDir)\libgsty4menc.dll" />
             </Component>
         </DirectoryRef>
