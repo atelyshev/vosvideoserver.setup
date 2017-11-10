@@ -37,7 +37,7 @@
   <Fragment>
     <Directory Id="TARGETDIR" Name="SourceDir">
       <Directory Id="ProgramFilesFolder">
-        <Directory Id="INSTALLFOLDER" Name="Vos Video Server">
+        <Directory Id="INSTALLFOLDER" Name="VosVideoServer">
           <Merge Id="VCRedist" SourceFile="$(env.ProgramFiles)\Common Files\Merge Modules\Microsoft_VC140_CRT_x86.msm" DiskId="1" Language="0"/>
           <Directory Id="INSTALLPLUGINLIBFOLDER" Name="lib">
             <Directory Id="INSTALLPLUGINBINFOLDER" Name="gstreamer-1.0" />
@@ -127,6 +127,15 @@
       <Component Id="cpprest140_2_8.dll" Guid="19051f46-e688-4f0c-a539-1c2a7b3c8b39">
         <File Source="$(env.VOSVIDEO_ROOT)\vosvideoserver\Release\cpprest140_2_8.dll" KeyPath="yes" />
       </Component>
+      <Component Id="opencv_imgcodecs310.dll" Guid="c849e727-8c44-4e1e-bc43-4c04410cf279">
+        <File Source="$(env.VOSVIDEO_ROOT)\vosvideoserver\Release\opencv_imgcodecs310.dll" KeyPath="yes" />
+      </Component>
+      <Component Id="opencv_imgproc310.dll" Guid="a38dbc5d-831d-44cb-a9ca-f057bfafd731">
+        <File Source="$(env.VOSVIDEO_ROOT)\vosvideoserver\Release\opencv_imgproc310.dll" KeyPath="yes" />
+      </Component>
+      <Component Id="opencv_videoio310.dll" Guid="399d5a9e-83fe-4b32-9e28-eef11ac48d78">
+        <File Source="$(env.VOSVIDEO_ROOT)\vosvideoserver\Release\opencv_videoio310.dll" KeyPath="yes" />
+      </Component>           
     </ComponentGroup>
   </Fragment>
 </Wix>
